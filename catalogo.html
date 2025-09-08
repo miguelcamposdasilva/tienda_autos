@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo - Mi Primera Tienda</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="contenedor">
+    <h1>Catálogo</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html" aria-current="page">Catálogo</a>
+      <a href="registro.html">Registrarse</a>
+      <a href="login.html">Ingresar</a>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <section aria-labelledby="catalogo-titulo">
+      <h2 id="catalogo-titulo">Explora nuestros vehículos</h2>
+      <p style="margin: .25rem 0 1rem; color: var(--texto-dim, #b9b9b9); max-width: 60ch;">
+        Este catálogo es una demo: los botones muestran que la interfaz funciona, pero no hay compra real todavía.
+      </p>
+
+      <article class="producto">
+        <img src="https://images.unsplash.com/photo-1549924230-2d5b2c26f59e?q=80&w=1200&auto=format&fit=crop" alt="SUV color negro en carretera" />
+        <h3>SUV Premium 2.4</h3>
+        <p>AWD, asistencias avanzadas y paquete de seguridad reforzado.</p>
+        <button class="btn" data-demo-btn>Comprar</button>
+      </article>
+
+      <article class="producto">
+        <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=1200&auto=format&fit=crop" alt="Camioneta pickup color azul" />
+        <h3>Pickup 3.0</h3>
+        <p>Potencia y capacidad de carga para trabajo duro y aventuras.</p>
+        <button class="btn" data-demo-btn>Comprar</button>
+      </article>
+
+      <article class="producto">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop" alt="Coupé deportivo color rojo" />
+        <h3>Coupé 2.0T</h3>
+        <p>Diseño audaz, motor turbo y manejo preciso.</p>
+        <button class="btn" data-demo-btn>Comprar</button>
+      </article>
+
+      <article class="producto">
+        <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=1200&auto=format&fit=crop" alt="Sedán plateado en ciudad" />
+        <h3>Sedán 1.8</h3>
+        <p>Confort, eficiencia y conectividad para uso diario.</p>
+        <button class="btn" data-demo-btn>Comprar</button>
+      </article>
+
+      <article class="producto">
+        <img src="https://images.unsplash.com/photo-1523986371872-9d3ba2e2d52f?q=80&w=1200&auto=format&fit=crop" alt="Hatchback rojo estacionado" />
+        <h3>Hatchback 1.2</h3>
+        <p>Práctico y económico, perfecto para trayectos urbanos.</p>
+        <button class="btn" data-demo-btn>Comprar</button>
+      </article>
+
+      <article class="producto">
+        <img src="https://images.unsplash.com/photo-1549923913-a6f4611d229f?q=80&w=1200&auto=format&fit=crop" alt="SUV mediano color blanco" />
+        <h3>SUV Mediano 2.0</h3>
+        <p>Equilibrio entre espacio, eficiencia y tecnología.</p>
+        <button class="btn" data-demo-btn>Comprar</button>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      <p>&copy; 2025 Mi Primera Tienda</p>
+    </div>
+  </footer>
+</body>
+</html>
