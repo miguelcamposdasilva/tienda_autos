@@ -3,71 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Catálogo - Mi Primera Tienda</title>
+  <title>Mi Primera Tienda</title>
   <link rel="stylesheet" href="styles.css" />
   <script src="app.js" defer></script>
 </head>
 <body>
   <header class="contenedor">
-    <h1>Catálogo</h1>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="catalogo.html" aria-current="page">Catálogo</a>
-      <a href="registro.html">Registrarse</a>
-      <a href="login.html">Ingresar</a>
-      <a href="carrito.html">Carrito</a>
-    </nav>
+    <h1>Mi Tienda de autos</h1>
+  <nav>
+  <a href="index.html" aria-current="page">Inicio</a>
+  <a href="catalogo.html">Catálogo</a>
+  <a href="registro.html">Registrarse</a>
+  <a href="login.html">Ingresar</a>
+  <a href="carrito.html">Carrito</a>
+</nav>
   </header>
 
   <main class="contenedor">
-    <section aria-labelledby="catalogo-titulo">
-      <h2 id="catalogo-titulo">Todos los autos disponibles</h2>
+    <section aria-labelledby="productos-titulo">
+      <h2 id="productos-titulo">Productos destacados</h2>
 
       <article class="producto">
-        <img src="images/sedan_ejecutivo.webp" alt="Sedán ejecutivo" height="240" width = "240" />
+        <img src="https://via.placeholder.com/300x200?text=Sed%C3%A1n" alt="Sedán ejecutivo" />
         <h3>Sedán Ejecutivo</h3>
         <p>Comodidad y estilo en cada viaje.</p>
         <p><strong>Precio:</strong> $19990</p>
-        <button class="btn btn-add" data-name="Sedán Ejecutivo" data-price="19990">Agregar al carrito</button>
+        <button class="btn btn-add"
+                data-name="Sedán Ejecutivo"
+                data-price="19990">Agregar al carrito</button>
       </article>
 
       <article class="producto">
-        <img src="images/suv_familiar.jpg" alt="SUV familiar" height="240" width = "240"/>
+        <img src="https://via.placeholder.com/300x200?text=SUV" alt="SUV familiar" />
         <h3>SUV Familiar</h3>
         <p>Espacio, seguridad y potencia.</p>
         <p><strong>Precio:</strong> $25990</p>
-        <button class="btn btn-add" data-name="SUV Familiar" data-price="25990">Agregar al carrito</button>
+        <button class="btn btn-add"
+                data-name="SUV Familiar"
+                data-price="25990">Agregar al carrito</button>
       </article>
 
       <article class="producto">
-        <img src="images/deportivo_ferrari.webp" alt="Deportivo" height="240" width = "240" />
+        <img src="https://via.placeholder.com/300x200?text=Deportivo" alt="Deportivo" />
         <h3>Deportivo</h3>
         <p>Velocidad y diseño que impresionan.</p>
         <p><strong>Precio:</strong> $39990</p>
-        <button class="btn btn-add" data-name="Deportivo" data-price="39990">Agregar al carrito</button>
+        <button class="btn btn-add"
+                data-name="Deportivo"
+                data-price="39990">Agregar al carrito</button>
       </article>
+    </section>
 
-      <article class="producto">
-        <img src="images/camioneta_4_4.jpg" alt="Camioneta 4x4" height="240" width = "240"/>
-        <h3>Camioneta 4x4</h3>
-        <p>Potencia y rendimiento para todo terreno.</p>
-        <p><strong>Precio:</strong> $28990</p>
-        <button class="btn btn-add" data-name="Camioneta 4x4" data-price="28990">Agregar al carrito</button>
-      </article>
-
-      <article class="producto">
-        <img src="images/hibrido_ecologico.webp" alt="Híbrido ecológico" height="240" width = "240" />
-        <h3>Híbrido Ecológico</h3>
-        <p>Combina eficiencia y cuidado del medio ambiente.</p>
-        <p><strong>Precio:</strong> $21990</p>
-        <button class="btn btn-add" data-name="Híbrido Ecológico" data-price="21990">Agregar al carrito</button>
-      </article>
+    <section aria-labelledby="video-titulo">
+      <h2 id="video-titulo">Video: Consejos de compra segura</h2>
+      <div class="video-responsivo">
+        <iframe
+          src="https://www.youtube.com/embed/xjUjo14Ck_c"
+          title="Consejos de compra segura"
+          allowfullscreen></iframe>
+      </div>
     </section>
   </main>
 
   <footer>
     <div class="contenedor">
       <p>&copy; 2025 Mi Primera Tienda</p>
+      <p>Contacto: <a href="mailto:contacto@mitienda.test">contacto@mitienda.test</a></p>
     </div>
   </footer>
 </body>
