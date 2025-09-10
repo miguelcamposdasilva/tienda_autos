@@ -186,3 +186,17 @@ input:focus-visible{
   header .contenedor{ padding:18px 0 }
   main{ padding: 34px 0 }
 }
+.cart-link { position: relative; }
+.badge{
+  display:inline-block; min-width: 22px; text-align:center;
+  padding: 2px 6px; margin-left: 6px;
+  border-radius: 999px; font-size: .85rem; font-weight: 700;
+  background: var(--primario, #d12e2e); color: #fff;
+}
+.cart-link { position: relative; }
+.badge{
+  display:inline-block; min-width: 22px; text-align:center;
+  padding: 2px 6px; margin-left: 6px;
+  border-radius: 999px; font-size: .85rem; font-weight: 700;
+  background: var(--primario, #d12e2e); color: #fff;
+}

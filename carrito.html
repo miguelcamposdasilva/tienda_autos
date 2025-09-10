@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrito - Mi Primera Tienda</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="contenedor">
+    <h1>Carrito de compras</h1>
+    <nav>
+<nav>
+  <a href="index.html" aria-current="page">Inicio</a>
+  <a href="catalogo.html">Catálogo</a>
+  <a href="registro.html">Registrarse</a>
+  <a href="login.html">Ingresar</a>
+  <a href="carrito.html">Carrito</a>
+</nav>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <section aria-labelledby="carrito-titulo">
+      <h2 id="carrito-titulo">Tus productos</h2>
+
+      <div id="estadoSesion" style="margin:.5rem 0;"></div>
+
+      <div id="listaCarrito" class="carrito"></div>
+
+      <div id="resumen" style="margin-top:1rem;"></div>
+
+      <div style="display:flex; gap:.5rem; margin-top:1rem;">
+        <button class="btn" id="btnFinalizar">Finalizar compra</button>
+        <button class="btn" id="btnVaciar">Vaciar carrito</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      <p>&copy; 2025 Mi Primera Tienda</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -3,260 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mi Primera Tienda — Vehículos destacados</title>
+  <title>Mi Primera Tienda</title>
   <link rel="stylesheet" href="styles.css" />
   <script src="app.js" defer></script>
-
-  <style>
-    .nissan {
-      --cl-bg: #1c1b1b;
-      --cl-text: #f5f5f5;
-      --cl-muted: #b9b9b9;
-      --cl-border: #333333;
-      --cl-black: #d12e2e;   
-      --cl-black-2: #a10e17; 
-      --cl-accent: #d12e2e;
-      color: var(--cl-text);
-      background: var(--cl-bg);
-    }
-
-    .nissan a { color: var(--cl-text); text-decoration: none; }
-    .nissan a:hover { text-decoration: underline; }
-
-    .nissan header {
-      background: #1c1b1b !important;
-      border-bottom: 1px solid var(--cl-border);
-      color: var(--cl-text);
-    }
-    .nissan header h1 { color: var(--cl-accent) !important; }
-    .nissan nav a {
-      color: var(--cl-text);
-      border-radius: 999px;
-      padding: 8px 12px;
-    }
-    .nissan nav a[aria-current="page"] {
-      background: #2a2a2a;
-      border: 1px solid var(--cl-border);
-    }
-
-    .nissan h2.section-title {
-      text-transform: uppercase;
-      letter-spacing: .08em;
-      text-align: center;
-      margin: 1.5rem 0 .75rem;
-      color: var(--cl-accent);
-      font-weight: 800;
-    }
-
-    .destacados {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 24px;
-      align-items: start;
-      margin-top: .5rem;
-    }
-    .vehiculo {
-      background: #222;
-      border: 1px solid var(--cl-border);
-      border-radius: 12px;
-      padding: 14px;
-      text-align: center;
-      box-shadow: 0 6px 18px rgba(0,0,0,.4);
-    }
-    .vehiculo img {
-      display: block; width: 100%; height: auto; object-fit: contain;
-      margin: 0 auto .5rem;
-    }
-    .vehiculo h3 {
-      margin: .25rem 0 0;
-      font-size: 1.15rem;
-      letter-spacing: .04em;
-      color: var(--cl-text);
-    }
-    .vehiculo .tagline {
-      margin: .1rem 0 .75rem;
-      font-size: .88rem;
-      color: var(--cl-muted);
-      text-transform: uppercase;
-      letter-spacing: .08em;
-    }
-    .cta-row {
-      display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;
-    }
-    .btn-black {
-      display: inline-block;
-      background: var(--cl-black);
-      color: #fff;
-      border: 1px solid var(--cl-black);
-      padding: 12px 22px;
-      border-radius: 999px;
-      font-weight: 800;
-      letter-spacing: .06em;
-      text-transform: uppercase;
-      transition: transform .12s ease, background .15s ease, opacity .15s ease;
-    }
-    .btn-black:hover { transform: translateY(-2px); background: var(--cl-black-2); text-decoration: none; }
-    .link-secondary {
-      font-weight: 700; font-size: .95rem; letter-spacing: .04em; color: var(--cl-accent);
-    }
-
-    .vehiculo .divider {
-      width: 100%; height: 1px;
-      background: var(--cl-border);
-      margin: .9rem 0 .2rem;
-    }
-
-    .recall {
-      text-align: center;
-      padding: 1rem 0;
-    }
-    .recall p {
-      color: var(--cl-muted);
-      max-width: 60ch;
-      margin: 0 auto .9rem;
-    }
-    .vin-form {
-      display: inline-flex; gap: 10px; flex-wrap: wrap;
-      align-items: center; justify-content: center;
-      margin-top: .25rem;
-    }
-    .vin-form input {
-      padding: 12px 14px;
-      border: 1px solid var(--cl-border);
-      border-radius: 999px;
-      min-width: 260px;
-      background: #111;
-      color: var(--cl-text);
-      text-transform: uppercase;
-      letter-spacing: .08em;
-    }
-    .vin-form .btn-outline {
-      border: 2px solid var(--cl-black);
-      background: transparent;
-      color: var(--cl-black);
-      padding: 10px 18px;
-      border-radius: 999px;
-      font-weight: 800;
-      letter-spacing: .06em;
-      text-transform: uppercase;
-    }
-    .vin-form .btn-outline:hover {
-      background: var(--cl-black); color:#fff; text-decoration: none;
-    }
-
-    .novedades {
-      display: grid;
-      grid-template-columns: 1.2fr .9fr;
-      gap: 24px;
-      align-items: start;
-    }
-    .novedades .mosaico {
-      display: grid; gap: 8px;
-      grid-template-columns: repeat(6, 1fr);
-    }
-    .novedades .mosaico img {
-      width: 100%; height: 90px; object-fit: cover; display: block;
-      border-radius: 4px;
-    }
-    .noticias {
-      background: #222; border: 1px solid var(--cl-border);
-      border-radius: 12px; padding: 16px;
-    }
-    .noticias h3 { margin: .25rem 0 .5rem; font-size: 1.25rem; color: var(--cl-accent); }
-    .noticias p { color: var(--cl-muted); }
-    .btn-more {
-      display:inline-block; margin-top:.5rem;
-      background: var(--cl-black); color: #fff;
-      padding: 10px 18px; border-radius: 999px; font-weight: 800;
-      letter-spacing: .04em; text-transform: uppercase;
-    }
-    .btn-more:hover { opacity: .9; text-decoration: none; }
-
-    .nissan footer {
-      background: #111 !important;
-      color: var(--cl-muted) !important;
-      border-top: 1px solid var(--cl-border);
-    }
-
-    @media (max-width: 900px){
-      .novedades { grid-template-columns: 1fr; }
-      .novedades .mosaico img { height: 80px; }
-    }
-  </style>
 </head>
-<body class="nissan">
+<body>
   <header class="contenedor">
     <h1>Mi Primera Tienda</h1>
-    <nav>
-      <a href="index.html" aria-current="page">Inicio</a>
-      <a href="catalogo.html">Catálogo</a>
-      <a href="registro.html">Registrarse</a>
-      <a href="login.html">Ingresar</a>
-    </nav>
+  <nav>
+  <a href="index.html" aria-current="page">Inicio</a>
+  <a href="catalogo.html">Catálogo</a>
+  <a href="registro.html">Registrarse</a>
+  <a href="login.html">Ingresar</a>
+  <a href="carrito.html">Carrito</a>
+</nav>
   </header>
 
   <main class="contenedor">
-    <h2 class="section-title">Vehículos destacados</h2>
-    <section class="destacados" aria-label="Vehículos destacados">
-      <article class="vehiculo">
-        <img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?q=80&w=1600&auto=format&fit=crop" alt="Sedán gris vista lateral" />
-        <h3>VERSA</h3>
-        <div class="tagline">DESAFÍA LO ESTABLECIDO</div>
-        <div class="cta-row"><a class="btn-black" href="catalogo.html">Conoce más</a></div>
-        <div class="divider"></div>
-        <div class="cta-row"><a class="link-secondary" href="catalogo.html">Cotiza</a></div>
+    <section aria-labelledby="productos-titulo">
+      <h2 id="productos-titulo">Productos destacados</h2>
+
+      <article class="producto">
+        <img src="https://via.placeholder.com/300x200?text=Sed%C3%A1n" alt="Sedán ejecutivo" />
+        <h3>Sedán Ejecutivo</h3>
+        <p>Comodidad y estilo en cada viaje.</p>
+        <p><strong>Precio:</strong> $19990</p>
+        <button class="btn btn-add"
+                data-name="Sedán Ejecutivo"
+                data-price="19990">Agregar al carrito</button>
       </article>
 
-      <article class="vehiculo">
-        <img src="https://images.unsplash.com/photo-1541443131876-b5d2dc6d4c39?q=80&w=1600&auto=format&fit=crop" alt="Sedán blanco vista lateral" />
-        <h3>SENTRA</h3>
-        <div class="tagline">SOLO LO QUE TE GUSTA</div>
-        <div class="cta-row"><a class="btn-black" href="catalogo.html">Conoce más</a></div>
-        <div class="divider"></div>
-        <div class="cta-row"><a class="link-secondary" href="catalogo.html">Cotiza</a></div>
+      <article class="producto">
+        <img src="https://via.placeholder.com/300x200?text=SUV" alt="SUV familiar" />
+        <h3>SUV Familiar</h3>
+        <p>Espacio, seguridad y potencia.</p>
+        <p><strong>Precio:</strong> $25990</p>
+        <button class="btn btn-add"
+                data-name="SUV Familiar"
+                data-price="25990">Agregar al carrito</button>
       </article>
 
-      <article class="vehiculo">
-        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600&auto=format&fit=crop" alt="SUV blanco vista 3/4" />
-        <h3>KICKS PLAY</h3>
-        <div class="tagline">ACTIVA TU ACTITUD</div>
-        <div class="cta-row"><a class="btn-black" href="catalogo.html">Conoce más</a></div>
-        <div class="divider"></div>
-        <div class="cta-row"><a class="link-secondary" href="catalogo.html">Cotiza</a></div>
-      </article>
-
-      <article class="vehiculo">
-        <img src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?q=80&w=1600&auto=format&fit=crop" alt="SUV azul vista 3/4" />
-        <h3>QASHQAI</h3>
-        <div class="tagline">LLEGA COMO QUIERES</div>
-        <div class="cta-row"><a class="btn-black" href="catalogo.html">Conoce más</a></div>
-        <div class="divider"></div>
-        <div class="cta-row"><a class="link-secondary" href="catalogo.html">Cotiza</a></div>
+      <article class="producto">
+        <img src="https://via.placeholder.com/300x200?text=Deportivo" alt="Deportivo" />
+        <h3>Deportivo</h3>
+        <p>Velocidad y diseño que impresionan.</p>
+        <p><strong>Precio:</strong> $39990</p>
+        <button class="btn btn-add"
+                data-name="Deportivo"
+                data-price="39990">Agregar al carrito</button>
       </article>
     </section>
 
-
-    <h2 class="section-title">Novedades</h2>
-    <section class="novedades">
-      <div class="mosaico">
-        <img src="https://images.unsplash.com/photo-1542365887-3d4342b7d3d3?q=80&w=600&auto=format&fit=crop" alt="">
-        <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?q=80&w=600&auto=format&fit=crop" alt="">
-        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=600&auto=format&fit=crop" alt="">
-        <img src="https://images.unsplash.com/photo-1517940310602-795f19f61ea9?q=80&w=600&auto=format&fit=crop" alt="">
-        <img src="https://images.unsplash.com/photo-1512499617640-c2f999098c36?q=80&w=600&auto=format&fit=crop" alt="">
-        <img src="https://images.unsplash.com/photo-1541443131876-b5d2dc6d4c39?q=80&w=600&auto=format&fit=crop" alt="">
+    <section aria-labelledby="video-titulo">
+      <h2 id="video-titulo">Video: Consejos de compra segura</h2>
+      <div class="video-responsivo">
+        <iframe
+          src="https://www.youtube.com/embed/xjUjo14Ck_c"
+          title="Consejos de compra segura"
+          allowfullscreen></iframe>
       </div>
-      <aside class="noticias">
-        <h3>Noticias</h3>
-        <p>Conoce las últimas novedades e información del mundo automotriz.</p>
-        <a class="btn-more" href="#">Ver más</a>
-      </aside>
     </section>
   </main>
 
   <footer>
     <div class="contenedor">
       <p>&copy; 2025 Mi Primera Tienda</p>
+      <p>Contacto: <a href="mailto:contacto@mitienda.test">contacto@mitienda.test</a></p>
     </div>
   </footer>
 </body>

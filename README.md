@@ -1,4 +1,4 @@
-# Mi Primera Tienda (HTML + CSS + JS)
+# Mi Primera Tienda (HTML + CSS + JyS)
 
 Proyecto muy simple para la evaluación formativa. Incluye:
 - **index.html** con estructura semántica (`header`, `nav`, `main`, `section`, `article`, `footer`), imágenes, video embebido y botones.
