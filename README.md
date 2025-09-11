@@ -29,3 +29,4 @@ git push -u origin main
 
 ## Nota
 Este proyecto es educativo y de demostración. No contiene lógica real de compra ni almacenamiento de datos.
+ 

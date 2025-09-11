@@ -1,15 +1,12 @@
-// app.js: validaciones + usuarios + sesión + carrito (con descuento 10% si hay login)
 (function(){
-  // ---------------- Utilidades de DOM ----------------
   function setError(id, msg) {
     const el = document.getElementById(id);
     if (el) el.textContent = msg || '';
   }
 
-  // ---------------- Persistencia ----------------
-  const LS_USERS   = 'users';       // { [email]: {password, nombre, pais} }
-  const LS_SESSION = 'usuario';     // email del usuario logueado
-  const LS_CART    = 'carrito';     // [{name, price, qty}]
+  const LS_USERS   = 'users';     
+  const LS_SESSION = 'usuario';   
+  const LS_CART    = 'carrito';     
 
   const getUsers = () => JSON.parse(localStorage.getItem(LS_USERS) || '{}');
   const setUsers = (obj) => localStorage.setItem(LS_USERS, JSON.stringify(obj));
@@ -22,7 +19,6 @@
   const setCart = (arr) => localStorage.setItem(LS_CART, JSON.stringify(arr));
   const clearCart = () => localStorage.removeItem(LS_CART);
 
-  // ---------------- Registro ----------------
   const formRegistro = document.getElementById('formRegistro');
   if (formRegistro) {
     formRegistro.addEventListener('submit', (e) => {
@@ -89,7 +85,6 @@
     });
   }
 
-  // ---------------- Botones "Agregar al carrito" en index ----------------
   function wireAddButtons() {
     document.querySelectorAll('.btn-add[data-name][data-price]').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -112,7 +107,6 @@
     setCart(cart);
   }
 
-  // ---------------- Carrito (UI en carrito.html) ----------------
   const listaCarrito = document.getElementById('listaCarrito');
   const resumen = document.getElementById('resumen');
   const estadoSesion = document.getElementById('estadoSesion');
@@ -137,7 +131,6 @@
       return;
     }
 
-    // pintar items
     cart.forEach((item, i) => {
       const row = document.createElement('div');
       row.className = 'carrito-item';
@@ -149,7 +142,6 @@
       listaCarrito.appendChild(row);
     });
 
-    // totales
     const total = cart.reduce((s, it) => s + it.price * it.qty, 0);
     const logged = !!getSession();
     const descuento = logged ? total * 0.10 : 0;
@@ -196,7 +188,6 @@
     });
   }
 
-  // ---------------- Inicio ----------------
   document.addEventListener('DOMContentLoaded', () => {
     wireAddButtons();
     renderSessionState();
