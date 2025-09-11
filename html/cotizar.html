@@ -1,107 +1,67 @@
 <!DOCTYPE html>
-
 <html lang="es">
-
 <head>
-
-  <meta charset="UTF-8" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Cotizar - Summer Car</title>
-
-  <link rel="stylesheet" href="../css/styles.css"/>
-
-  <script src="app.js" defer></script>
-
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Cotizar - Summer Car</title>
+ <link rel="stylesheet" href="../css/styles.css"/>
+ <script src="app.js" defer></script>
 </head>
-
 <body>
-
-    <header class="contenedor">
-
-    <h1>Cotizar</h1>
-
-   
-
+ <header class="contenedor">
+<h1>Cotizar</h1>
+ 
 <nav>
-
-  <a href="index.html">Inicio</a>
-
-  <a href="catalogo.html">Catálogo</a>
-
+<a href="index.html">Inicio</a>
+ <a href="catalogo.html">Catálogo</a>
   <a href="registro.html">Registrarse</a>
+ <a href="login.html">Ingresar</a>
+<a href="carrito.html">Carrito</a>
+ <a href="cotizar.html" aria-current="page">Cotizar</a>
+ </nav>
+</header>
+<footer>
+     <img src="https://www.nissan-cdn.net/content/dam/Nissan/cl/vehicles/kicks-play/precio/Banner%20op-2.jpg.ximg.l_12_m.smart.jpg" alt="Banner promocional de vehículo Nissan Kicks" />
+   </footer>
 
-  <a href="login.html">Ingresar</a>
+  <main class="contenedor">
+ <section aria-labelledby="registro-titulo">
+ <h2 id="registro-titulo">Cotización</h2>
+ <form id="formRegistro" novalidate>
+ <div class="campo">
+ <label for="nombre">Nombre completo</label>
+ <input id="nombre" name="nombre" type="text" placeholder="Ej: Ana Pérez" autocomplete="name" required minlength="3" />
+ <small class="error" id="err-nombre" aria-live="polite"></small>
+ </div>
 
-  <a href="carrito.html">Carrito</a>
+<div class="campo">
+ <label for="email">Correo electrónico</label>
+ <input id="email" name="email" type="email" placeholder="Ej: ana@mail.com" autocomplete="email" required />
+<small class="error" id="err-email" aria-live="polite"></small>
+ </div>
 
-  <a href="cotizar.html" aria-current="page">Cotizar</a>
+<div class="campo">
+<label for="celular">Celular</label>
+<input id="celular" name="celular" type="tel" placeholder="Ej: 912345678" autocomplete="tel" required />
+ <small class="error" id="err-celular" aria-live="polite"></small>
+</div>
 
-</nav>
+ <div class="campo">
+<label for="sucursal">Sucursal</label>
+           <input id="sucursal" name="sucursal" list="sucursales" placeholder="Escribe o elige..." autocomplete="off" required />
+ <datalist id="sucursales">
+  <option value="Santiago">Santiago</option>
+ <option value="Las Condes">Las Condes</option>
+<option value="San Joaquin">San Joaquín</option>
+ </datalist>
+<small class="error" id="err-sucursal" aria-live="polite"></small>
+ </div>
 
-    </header>
+ <button class="btn" type="submit">Enviar</button>
+</form>
+ </section>
+ </main>
+ 
 
-
-    <main class="contenedor">
-
-    <section aria-labelledby="registro-titulo">
-
-      <h2 id="registro-titulo">Cotizar</h2>
-
-
-      <form id="formRegistro" novalidate>
-
-        <div class="campo">
-
-          <label for="nombre">Nombre completo</label>
-
-          <input id="nombre" name="nombre" type="text" placeholder="Ej: Ana Pérez" autocomplete="name" required minlength="3" />
-
-          <small class="error" id="err-nombre" aria-live="polite"></small>
-
-        </div>
-
-
-        <div class="campo">
-
-          <label for="email">Correo electrónico</label>
-
-          <input id="email" name="email" type="email" placeholder="Ej: ana@mail.com" autocomplete="email" required />
-
-          <small class="error" id="err-email" aria-live="polite"></small>
-
-        </div>
-
-
-        <div class="campo">
-
-            <label for="celular">celular</label>
-
-            <input id="celular" name="celular" type="celular" placeholder="Ej: 912345678" autocomplete="celular" required />
-
-            <small class="error" id="err-celular" aria-live="polite"></small>
-
-          </div>
-
-         
-
-                  <button class="btn" type="submit">Enviar</button>
-
-                </form>
-
-              </section>
-            </main>
-            <label for="textfield_a870" id="textfield_a870_label" data-di-id="#textfield_a870_label">
-            </label>
-        </div>
-        </div>
-        </div>
-        </div>
-    </nav>        
-    </nav>
-
-    <img src="//www.nissan-cdn.net/content/dam/Nissan/cl/vehicles/kicks-play/precio/Banner%20op-2.jpg.ximg.l_12_m.smart.jpg" alt="" aria-hidden="true" role="presentation">
-  </header>
-  </body>
-  </html>
+</body>
+</html>
