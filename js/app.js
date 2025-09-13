@@ -201,6 +201,7 @@
     const nombre = document.getElementById('nombre').value.trim();
     const email = document.getElementById('email').value.trim();
     const celular = document.getElementById('celular').value.trim();
+    const autoDeseado = document.getElementById('autoDeseado').value.trim();
     const sucursal = document.getElementById('sucursal').value.trim();
 
     let errores = false; 
@@ -218,6 +219,11 @@
 
     if(celular.length < 8 || !/^\d+$/.test(celular)) {
       document.getElementById('err-celular').textContent = 'Ingresa un número de celular válido (mínimo 8 dígitos).';
+      errores = true;
+    }
+
+    if(autoDeseado.length < 3) {
+      document.getElementById('err-autoDeseado').textContent = 'Especifica el auto que deseas cotizar (mínimo 3 caracteres).';
       errores = true;
     }
 
