@@ -193,4 +193,53 @@
     renderSessionState();
     renderCart();
   });
+
+  const formCotizar = document.getElementById('formCotizar');
+  formCotizar.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const nombre = document.getElementById('nombre').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const celular = document.getElementById('celular').value.trim();
+    const sucursal = document.getElementById('sucursal').value.trim();
+
+    let errores = false; 
+
+    document.querySelectorAll('.error').forEach(el => el.textContent = '');
+    if (nombre.length < 3) {
+      document.getElementById('err-nombre').textContent = 'Ingresa tu nombre (mínimo 3 caracteres).';
+      errores = true;
+    }
+
+    if (!email.includes('@') || !email.includes('.')) {
+      document.getElementById('err-email').textContent = 'Ingresa un correo válido.';
+      errores = true;
+    }
+
+    if(celular.length < 8 || !/^\d+$/.test(celular)) {
+      document.getElementById('err-celular').textContent = 'Ingresa un número de celular válido (mínimo 8 dígitos).';
+      errores = true;
+    }
+
+    if(sucursal == '') {
+      document.getElementById('err-sucursal').textContent = 'Selecciona una sucursal.';
+      errores = true;
+    }
+
+    if (errores) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Error en el formulario',
+        text: 'Debes rellenar correctamente los campos!'
+      });
+    }else {
+      Swal.fire({
+        icon: 'success',
+        title: 'Cotización enviada!!',
+        text: 'Nos pondremos en contacto contigo a la brevedad.',
+    });
+
+    form.reset();
+    }
+  });
 })();
