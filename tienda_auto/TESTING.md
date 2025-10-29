@@ -75,4 +75,3 @@ Si quieres, puedo:
 - Añadir pruebas adicionales (persistencia en `localStorage`, casos límite de `dec`/`clear`).
 - Añadir ejemplos con `@testing-library/react`.
 
-Fin.
