@@ -1,4 +1,5 @@
-import { Link, NavLink } from 'react-router-dom';
+// src/components/Navbar.jsx
+import { NavLink } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 
 export default function Navbar() {
@@ -9,14 +10,14 @@ export default function Navbar() {
     <header className="contenedor">
       <h1>Automarket</h1>
       <nav>
-        <Link to="/" end>Inicio</Link>
-        <Link to="/catalogo">Catálogo</Link>
-        <Link to="/registro">Registrarse</Link>
-        <Link to="/login">Ingresar</Link>
-        <Link to="/carrito" className="cart-link">
+        <NavLink to="/" end>Inicio</NavLink>
+        <NavLink to="/catalogo">Catálogo</NavLink>
+        <NavLink to="/registro">Registrarse</NavLink>
+        <NavLink to="/login">Ingresar</NavLink>
+        <NavLink to="/carrito" className="cart-link">
           Carrito {count > 0 && <span className="badge">{count}</span>}
-        </Link>
-        <Link to="/cotizar">Cotizar</Link>
+        </NavLink>
+        <NavLink to="/cotizar">Cotizar</NavLink>
       </nav>
     </header>
   );

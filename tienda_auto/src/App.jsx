@@ -1,8 +1,6 @@
-import { useState } from 'react'
+
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import  './styles/styles.css'
 import Home from './pages/Home' 
 import Cotizar from './pages/Cotizar.JSX'
@@ -13,7 +11,7 @@ import Login from './pages/Login'
 import Catalogo from './pages/Catalogo'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (<>
   <Navbar/>

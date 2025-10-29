@@ -1,45 +1,24 @@
 
 import React from 'react'
+import ProductCard from '../components/ProductCard'
 
+const featured = [
+  { id: 'sedan', name: 'Sedán Ejecutivo', price: 19990, image: '/sedan_ejecutivo.webp' },
+  { id: 'suv', name: 'SUV Familiar', price: 25990, image: '/suv_familiar.jpg' },
+  { id: 'deportivo', name: 'Deportivo', price: 39990, image: '/deportivo_ferrari.webp' },
+]
 
 const Home = () => {
   return (
     <div>
 
-
-  <main class="contenedor">
-    <h2 id="productos-titulo">Productos destacados</h2>
-    <section aria-labelledby="productos-titulo">
-      <article class="producto">
-        <img src='./sedan_ejecutivo.webp'alt="Sedán ejecutivo" />
-        <h3>Sedán Ejecutivo</h3>
-        <p>Comodidad y estilo en cada viaje.</p>
-        <p><strong>Precio:</strong> $19990</p>
-        <button class="btn btn-add"
-                data-name="Sedán Ejecutivo"
-                data-price="19990">Agregar al carrito</button>
-      </article>
-
-      <article class="producto">
-        <img src="./suv_familiar.jpg" alt="SUV familiar" />
-        <h3>SUV Familiar</h3>
-        <p>Espacio, seguridad y potencia.</p>
-        <p><strong>Precio:</strong> $25990</p>
-        <button class="btn btn-add"
-                data-name="SUV Familiar"
-                data-price="25990">Agregar al carrito</button>
-      </article>
-
-      <article class="producto">
-        <img src="./deportivo_ferrari.webp" alt="Deportivo" />
-        <h3>Deportivo</h3>
-        <p>Velocidad y diseño que impresionan.</p>
-        <p><strong>Precio:</strong> $39990</p>
-        <button class="btn btn-add"
-                data-name="Deportivo"
-                data-price="39990">Agregar al carrito</button>
-      </article>
-    </section>
+      <main className="contenedor">
+        <h2 id="productos-titulo">Productos destacados</h2>
+        <section aria-labelledby="productos-titulo" style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
+          {featured.map(p => (
+            <ProductCard key={p.id} {...p} />
+          ))}
+        </section>
 
     <section aria-labelledby="video-titulo">
       <h2 id="video-titulo">Vehiculo proximamente disponible</h2>
