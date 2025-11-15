@@ -1,4 +1,3 @@
-// src/pages/Carrito.jsx
 import { useMemo } from 'react';
 import { useCart } from '../context/CartContext';
 
@@ -9,7 +8,7 @@ export default function Carrito() {
     () => items.reduce((s, it) => s + it.price * it.qty, 0),
     [items]
   );
-  const total = subtotal; // si luego quieres descuento por sesión, lo aplicamos acá
+  const total = subtotal; 
 
   return (
     <div>
