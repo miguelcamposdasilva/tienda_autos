@@ -13,7 +13,7 @@ const Home = () => {
 
   const fetchDestacados = async () => {
     try {
-      const res = await fetch('''/api/autos');
+      const res = await fetch('/api/autos');
       const data = await res.json();
 
       const dataFormateada = data.map(auto => ({

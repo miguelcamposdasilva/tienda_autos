@@ -27,7 +27,7 @@ export default function Registro() {
     if (formData.password !== formData.confirmar) return setError("Las contraseñas no coinciden.");
 
     try {
-      const response = await fetch("''/api/register", {
+      const response = await fetch('/api/register', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
