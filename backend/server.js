@@ -101,6 +101,23 @@ app.delete('/api/autos/:id', (req, res) => {
     });
 });
 
+//5. Obtener un auto por ID (GET)
+app.get('/api/autos/:id', (req, res) => {
+    const { id } = req.params;
+    const sql = "SELECT * FROM autos WHERE id = ?";
+    
+    db.query(sql, [id], (err, result) => {
+        if (err) return res.status(500).send(err);
+        
+        if (result.length === 0) {
+            return res.status(404).json({ message: "Auto no encontrado" });
+        }
+        
+        // Devolvemos solo el objeto del auto, no un array
+        res.json(result[0]);
+    });
+});
+
 // Iniciar servidor
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
