@@ -19,7 +19,7 @@ export default function Catalogo() {
 
   const fetchAutos = async () => {
     try {
-      const res = await fetch('http://localhost:3000/api/autos');
+      const res = await fetch('''/api/autos');
       const data = await res.json();
       
       const dataFormateada = data.map(auto => ({

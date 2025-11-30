@@ -14,7 +14,7 @@ const AdminPanel = () => {
   const [form, setForm] = useState(initialForm);
 
   
-  const API_URL = 'http://localhost:3000/api/autos';
+  const API_URL = '''/api/autos';
 
   useEffect(() => {
     fetchAutos();
