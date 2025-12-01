@@ -175,6 +175,8 @@ POST /api/register  Crea un usuario nuevo (Rol USER).
 * **[Miguel Campos]** - *Full Stack Developer* - [GitHub](https://github.com/miguelcamposdasilva)
 * **[Francisco Godoy]** - *Full Stack Developer* - [GitHub](https://github.com/Francisco2105)
 * * **[Franco Garay]** - *Full Stack Developer* - [GitHub](https://github.com/francog14)
+ 
+  * [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/miguelcamposdasilva/tienda_autos)
 ---
 *Proyecto realizado para **Duoc UC**, 2025.*
 *Todos los Derechos Reservados ©*
