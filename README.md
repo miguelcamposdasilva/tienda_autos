@@ -3,7 +3,6 @@
 ![Status](https://img.shields.io/badge/Status-Completado-success)
 ![Version](https://img.shields.io/badge/Version-1.1.0-blue)
 ![Tests](https://img.shields.io/badge/Tests-56%20passing-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-green)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/miguelcamposdasilva/tienda_autos)
 
 **Automarket** es una aplicación web Full Stack para la gestión y comercialización de vehículos. Los usuarios pueden navegar el catálogo, filtrar vehículos, gestionar un carrito y solicitar cotizaciones, mientras que los administradores cuentan con un panel privado para el CRUD del inventario.
@@ -222,8 +221,8 @@ En producción hay que definir `JWT_SECRET` y las credenciales de la base de dat
 ## 👥 Equipo
 
 * **Miguel Campos** - *Full Stack Developer* - [GitHub](https://github.com/miguelcamposdasilva)
-* **Francisco Godoy** - *Full Stack Developer* - [GitHub](https://github.com/Francisco2105)
-* **Franco Garay** - *Full Stack Developer* - [GitHub](https://github.com/francog14)
+* **Dario Meza** - *Full Stack Developer* - [GitHub](https://github.com/DarioMeza)
+* **Benjamin Vidal** - *Full Stack Developer* - [GitHub](https://github.com/BenjaminVIs)
 
 ---
 *Proyecto realizado para **Duoc UC**, 2025-2026.*
