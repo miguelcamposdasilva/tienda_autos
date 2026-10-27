@@ -29,7 +29,8 @@ export default function Login() {
       const data = await response.json();
 
       if (response.ok) {
-        login(data.user);
+        // Guardamos el token JWT junto al usuario para autenticar las operaciones protegidas
+        login({ ...data.user, token: data.token });
         if (data.user.role === "ADMIN") {
           navigate("/admin");
         } else {

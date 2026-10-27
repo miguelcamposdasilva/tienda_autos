@@ -1,0 +1,55 @@
+# Automarket: base de datos + API + frontend
+#   docker compose up -d --build      -> http://localhost:8080
+# SonarQube (perfil opcional):
+#   docker compose --profile sonar up -d sonarqube   -> http://localhost:9000
+services:
+  db:
+    image: mysql:8.4
+    environment:
+      MYSQL_ROOT_PASSWORD: automarket_root
+      MYSQL_DATABASE: db_tienda_autos
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./backend/database.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+      - ./backend/seed.sql:/docker-entrypoint-initdb.d/02-seed.sql:ro
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-pautomarket_root"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  backend:
+    build: ./backend
+    environment:
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_USER: root
+      DB_PASSWORD: automarket_root
+      DB_NAME: db_tienda_autos
+      JWT_SECRET: ${JWT_SECRET:-cambiar_este_secreto_en_produccion}
+    ports:
+      - "3000:3000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+
+  sonarqube:
+    image: sonarqube:community
+    profiles: ["sonar"]
+    ports:
+      - "9000:9000"
+    volumes:
+      - sonar_data:/opt/sonarqube/data
+
+volumes:
+  db_data:
+  sonar_data:

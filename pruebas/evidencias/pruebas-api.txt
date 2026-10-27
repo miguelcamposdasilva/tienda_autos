@@ -1,0 +1,127 @@
+Ejecución: 2026-10-27 15:16:29  |  API: http://localhost:3000
+
+==================================================================
+Preparación: obtener tokens ADMIN y USER
+==================================================================
+Token ADMIN obtenido: eyJhbGciOiJIUzI1NiIsInR5c...
+Token USER  obtenido: eyJhbGciOiJIUzI1NiIsInR5c...
+
+==================================================================
+SEG-01 Contraseñas almacenadas con hash (REQ-SEG-01)
+==================================================================
+id	email	password	role
+1	admin@automarket.com	$2b$10$ZVtQUeeykCVIa3ZHTXt0NeNnDRvCz9x8/v89txUZjJDtPXumc2I6.	ADMIN
+6	usuario.prueba@mail.com	$2b$10$UZM4/v3QdzV4kUnleh0zWuWYS47zjR.YV3irZD4fzhUlaFwjzH8qe	USER
+
+==================================================================
+SEG-02a Eliminar auto SIN token (REQ-SEG-02) - esperado 401
+==================================================================
+$ curl -X DELETE http://localhost:3000/api/autos/5
+{"message":"Autenticación requerida"}
+-> HTTP 401
+
+==================================================================
+SEG-02b Crear auto con token de USER (REQ-SEG-02) - esperado 403
+==================================================================
+$ curl -X POST http://localhost:3000/api/autos -H Content-Type: application/json -H Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Niwicm9sZSI6IlVTRVIiLCJpYXQiOjE3OTMxMjQ5OTAsImV4cCI6MTc5MzEzMjE5MH0.6fHTfgnyeXGomHE4_ufXlpfbmk42e54iCbCLPLrAfGA -d {"marca":"Hack","modelo":"X","annio":2024,"precio":1,"stock":1}
+{"message":"Acceso denegado: se requiere rol ADMIN"}
+-> HTTP 403
+
+==================================================================
+SEG-03 Token ADMIN falsificado (firmado con otro secreto) (REQ-SEG-03) - esperado 401
+==================================================================
+$ curl -X DELETE http://localhost:3000/api/autos/1 -H Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTksInJvbGUiOiJBRE1JTiJ9.t0d_FmbPFVyW6UxmEPBluPMnAvMX-L2IV0f46TdhBHs
+{"message":"Token inválido o expirado"}
+-> HTTP 401
+
+==================================================================
+SEG-04 Inyección SQL en login (REQ-SEG-04) - esperado 401
+==================================================================
+$ curl -X POST http://localhost:3000/api/login -H Content-Type: application/json -d {"email":"' OR '1'='1' -- ","password":"x"}
+{"message":"Credenciales incorrectas"}
+-> HTTP 401
+
+==================================================================
+SEG-05 Fuerza bruta: 30 intentos fallidos seguidos (REQ-SEG-05) - esperado bloqueo 429
+==================================================================
+401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 401 
+-> Códigos 429 recibidos: ninguno si todas las respuestas son 401
+
+==================================================================
+SEG-06 Manejo de errores: registrar email duplicado (REQ-SEG-06) - esperado mensaje genérico
+==================================================================
+$ curl -X POST http://localhost:3000/api/register -H Content-Type: application/json -d {"nombre":"Dup","email":"admin@automarket.com","password":"123456"}
+{"code":"ER_DUP_ENTRY","errno":1062,"sqlState":"23000","sqlMessage":"Duplicate entry 'admin@automarket.com' for key 'users.email'","sql":"INSERT INTO users (nombre, email, password, role) VALUES ('Dup', 'admin@automarket.com', '$2b$10$xh2ZxMM26oUQqjqvzEdIBe97aG5MwamEhj3caxt/sjW2mXJsm4NzS', 'USER')"}
+-> HTTP 500
+
+==================================================================
+SEG-07 Cabeceras de seguridad y CORS (REQ-SEG-07) - esperado HSTS, CSP, X-Frame-Options y CORS restringido
+==================================================================
+$ curl -I http://localhost:8080/
+HTTP/1.1 200 OK
+Server: nginx/1.27.5
+Date: Tue, 27 Oct 2026 18:16:38 GMT
+Content-Type: text/html
+Content-Length: 496
+Last-Modified: Tue, 27 Oct 2026 18:04:40 GMT
+Connection: keep-alive
+ETag: "6ae0e7b8-1f0"
+Accept-Ranges: bytes
+
+$ curl -I -H 'Origin: https://sitio-malicioso.com' http://localhost:3000/api/autos
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+
+==================================================================
+SEG-08 Credenciales en código fuente (REQ-SEG-08) - esperado sin valores por defecto
+==================================================================
+14:    user: process.env.DB_USER || 'root',
+15:    password: process.env.DB_PASSWORD || '',
+
+==================================================================
+CP-12 Regla de negocio: precio y stock negativos, año 1800 (REQ-FUNC-09) - esperado 400
+==================================================================
+$ curl -X POST http://localhost:3000/api/autos -H Content-Type: application/json -H Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzkzMTI0OTg5LCJleHAiOjE3OTMxMzIxODl9.FlGpxI1KhmDU4o1HK2A5g3YqfWImsaH_-mhDUYSbYn8 -d {"marca":"Test","modelo":"Invalido","annio":1800,"precio":-5000,"stock":-3}
+{"message":"Auto creado","id":8}
+-> HTTP 200
+
+==================================================================
+CP-11 CRUD con token ADMIN (REQ-FUNC-08) - esperado 200
+==================================================================
+$ curl -X PUT http://localhost:3000/api/autos/5 -H Content-Type: application/json -H Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzkzMTI0OTg5LCJleHAiOjE3OTMxMzIxODl9.FlGpxI1KhmDU4o1HK2A5g3YqfWImsaH_-mhDUYSbYn8 -d {"marca":"Toyota","modelo":"Prius Híbrido","annio":2024,"precio":23990000,"stock":6,"imagen":"/hibrido_ecologico.webp","descripcion":"Híbrido de bajo consumo."}
+{"message":"Auto actualizado"}
+-> HTTP 200
+
+==================================================================
+CP-13 Cotización: ¿existe endpoint en la API? (REQ-FUNC-10) - esperado 200/201
+==================================================================
+$ curl -X POST http://localhost:3000/api/cotizaciones -H Content-Type: application/json -d {"nombre":"Ana","email":"ana@mail.com","celular":"912345678","autoDeseado":"SUV","sucursal":"Maipú"}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /api/cotizaciones</pre>
+</body>
+</html>
+
+-> HTTP 404
+
+==================================================================
+LEG-03 Derechos del titular (REQ-LEG-03): rutas disponibles en la API - esperado endpoint para eliminar/consultar la propia cuenta
+==================================================================
+45:    app.post('/api/login', (req, res) => {
+68:    app.post('/api/register', async (req, res) => {
+87:    app.get('/api/autos', (req, res) => {
+95:    app.post('/api/autos', requireAuth, requireAdmin, (req, res) => {
+106:    app.put('/api/autos/:id', requireAuth, requireAdmin, (req, res) => {
+118:    app.delete('/api/autos/:id', requireAuth, requireAdmin, (req, res) => {
+127:    app.get('/api/autos/:id', (req, res) => {
+
+==================================================================
+Limpieza: eliminar datos de prueba
+==================================================================
+OK

@@ -1,8 +1,23 @@
 import React, { useState, useEffect } from 'react';
 // Importamos íconos para mejorar la interfaz visual
 import { FaEdit, FaTrash, FaSave, FaEraser, FaPlus } from 'react-icons/fa';
+import { useAuth } from '../context/AuthContext';
 
 const AdminPanel = () => {
+  const { user, logout } = useAuth();
+  // Cabecera con el token JWT exigido por la API para crear/editar/eliminar
+  const authHeaders = { Authorization: `Bearer ${user?.token}` };
+
+  // Si el servidor rechaza el token (expirado o falsificado), se cierra la sesión
+  const sesionRechazada = (res) => {
+    if (res.status === 401 || res.status === 403) {
+      alert('Tu sesión no es válida o no tienes permisos. Inicia sesión nuevamente.');
+      logout();
+      return true;
+    }
+    return false;
+  };
+
   const [autos, setAutos] = useState([]);
   const [modoEdicion, setModoEdicion] = useState(false);
   const [idEditar, setIdEditar] = useState(null);
@@ -42,10 +57,11 @@ const AdminPanel = () => {
     try {
       const res = await fetch(url, {
         method: method,
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json', ...authHeaders },
         body: JSON.stringify(form)
       });
 
+      if (sesionRechazada(res)) return;
       if (res.ok) {
         alert(modoEdicion ? 'Auto actualizado correctamente' : 'Auto creado correctamente');
         fetchAutos();
@@ -60,7 +76,8 @@ const AdminPanel = () => {
     if (!window.confirm('¿Seguro que quieres eliminar este auto permanentemente?')) return;
 
     try {
-      await fetch(`${API_URL}/${id}`, { method: 'DELETE' });
+      const res = await fetch(`${API_URL}/${id}`, { method: 'DELETE', headers: authHeaders });
+      if (sesionRechazada(res)) return;
       fetchAutos();
     } catch (error) {
       console.error(error);

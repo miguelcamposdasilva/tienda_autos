@@ -10,9 +10,9 @@ CREATE TABLE IF NOT EXISTS users (
     role VARCHAR(20) DEFAULT 'USER'
 );
 
--- Insertar Admin por defecto
-INSERT IGNORE INTO users (nombre, email, password, role) 
-VALUES ('Super Admin', 'admin@automarket.com', 'admin123', 'ADMIN');
+-- Insertar Admin por defecto (contraseña "admin123" almacenada como hash bcrypt)
+INSERT IGNORE INTO users (nombre, email, password, role)
+VALUES ('Super Admin', 'admin@automarket.com', '$2b$10$ZVtQUeeykCVIa3ZHTXt0NeNnDRvCz9x8/v89txUZjJDtPXumc2I6.', 'ADMIN');
 
 -- Tabla de Autos (Para el CRUD)
 CREATE TABLE IF NOT EXISTS autos (

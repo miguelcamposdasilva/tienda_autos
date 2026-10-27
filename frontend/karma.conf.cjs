@@ -1,5 +1,3 @@
-const path = require('path');
-
 module.exports = function (config) {
   config.set({
     frameworks: ['jasmine'],
@@ -22,7 +20,9 @@ module.exports = function (config) {
                 presets: [
                   ['@babel/preset-env', { targets: { node: 'current' } }],
                   ['@babel/preset-react', { runtime: 'automatic' }]
-                ]
+                ],
+                // Instrumenta solo el código fuente (src/) para el reporte de cobertura
+                plugins: [['istanbul', { include: ['src/**'] }]]
               }
             }
           },
@@ -37,10 +37,14 @@ module.exports = function (config) {
       }
     },
     webpackMiddleware: { stats: 'errors-only' },
-    reporters: ['progress', 'kjhtml', 'coverage'],
+    reporters: ['spec', 'kjhtml', 'coverage'],
     coverageReporter: {
-      type: 'html',
-      dir: 'coverage/'
+      dir: 'coverage/',
+      reporters: [
+        { type: 'html', subdir: 'html' },
+        { type: 'lcovonly', subdir: '.', file: 'lcov.info' }, // usado por SonarQube
+        { type: 'text-summary' }
+      ]
     },
     browsers: ['ChromeHeadless'],
     singleRun: true,

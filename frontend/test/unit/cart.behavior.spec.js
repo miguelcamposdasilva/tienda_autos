@@ -1,23 +1,17 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
 import { CartProvider, useCart } from '../../src/context/CartContext.jsx';
+import { render, click } from './helpers.js';
 
 describe('Cart integration behavior', () => {
-  let container, root;
+  let view;
 
-  beforeEach(() => {
-    container = document.createElement('div');
-    document.body.appendChild(container);
-    localStorage.removeItem('carrito');
-  });
+  beforeEach(() => localStorage.removeItem('carrito'));
 
   afterEach(() => {
-    if (root) root.unmount();
-    container.remove();
+    view.unmount();
     localStorage.removeItem('carrito');
   });
 
-  it('add / inc / dec / remove update items and subtotal', (done) => {
+  it('add / inc / dec / remove update items and subtotal', () => {
     function TestApp() {
       const { items, add, inc, dec, remove, clear, subtotal } = useCart();
       return (
@@ -33,37 +27,24 @@ describe('Cart integration behavior', () => {
       );
     }
 
-    root = createRoot(container);
-    root.render(
+    view = render(
       <CartProvider>
         <TestApp />
       </CartProvider>
     );
+    const $ = (sel) => view.container.querySelector(sel);
 
-    // sequence of actions with small timeouts to allow React state updates
-    // wait a tick for the initial render to complete
-    setTimeout(() => {
-      container.querySelector('#add').click();
-      setTimeout(() => {
-        expect(container.querySelector('#items').textContent).toContain('"id":"id1"');
-        expect(container.querySelector('#subtotal').textContent).toBe('10');
+    click($('#add'));
+    expect($('#items').textContent).toContain('"id":"id1"');
+    expect($('#subtotal').textContent).toBe('10');
 
-        container.querySelector('#inc').click();
-        setTimeout(() => {
-          expect(container.querySelector('#subtotal').textContent).toBe('20');
+    click($('#inc'));
+    expect($('#subtotal').textContent).toBe('20');
 
-          container.querySelector('#dec').click();
-          setTimeout(() => {
-            expect(container.querySelector('#subtotal').textContent).toBe('10');
+    click($('#dec'));
+    expect($('#subtotal').textContent).toBe('10');
 
-            container.querySelector('#remove').click();
-            setTimeout(() => {
-              expect(container.querySelector('#items').textContent).toBe('[]');
-              done();
-            }, 30);
-          }, 30);
-        }, 30);
-      }, 30);
-    }, 50);
+    click($('#remove'));
+    expect($('#items').textContent).toBe('[]');
   });
 });

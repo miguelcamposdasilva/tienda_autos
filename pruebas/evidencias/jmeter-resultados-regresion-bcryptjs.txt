@@ -1,0 +1,4 @@
+GET /api/autos (listar catálogo) | n=500 | err%=4.20 | avg=576 | min=4 | p90=1048 | p95=1449 | p99=4620 | max=5424 | tput=18.2/s
+POST /api/login | n=100 | err%=26.00 | avg=1396 | min=140 | p90=2755 | p95=4360 | p99=6207 | max=6211 | tput=4.5/s
+Total | n=1100 | err%=4.27 | avg=575 | min=4 | p90=1100 | p95=1448 | p99=4428 | max=6211 | tput=39.3/s
+GET /api/autos/{id} (detalle de vehículo) | n=500 | err%=0.00 | avg=410 | min=4 | p90=889 | p95=1046 | p99=1197 | max=1220 | tput=18.3/s

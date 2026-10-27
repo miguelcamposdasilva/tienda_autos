@@ -1,0 +1,24 @@
+home Performance=54 Accessibility=95 Best Practices=96 SEO=83 | LCP=8.5 s FCP=7.5 s CLS=0.125 TBT=0 ms
+    is-on-https 1 | Uses HTTPS 
+    csp-xss 1 | Ensure CSP is effective against XSS attacks No CSP found in enforcement mode
+    has-hsts 1 | Use a strong HSTS policy No HSTS header found
+    origin-isolation 1 | Ensure proper origin isolation with COOP No COOP header found
+    clickjacking-mitigation 1 | Mitigate clickjacking with XFO or CSP No frame control policy found
+catalogo Performance=88 Accessibility=100 Best Practices=100 SEO=83 | LCP=2.4 s FCP=2.3 s CLS=0 TBT=310 ms
+    is-on-https 1 | Uses HTTPS 
+    csp-xss 1 | Ensure CSP is effective against XSS attacks No CSP found in enforcement mode
+    has-hsts 1 | Use a strong HSTS policy No HSTS header found
+    origin-isolation 1 | Ensure proper origin isolation with COOP No COOP header found
+    clickjacking-mitigation 1 | Mitigate clickjacking with XFO or CSP No frame control policy found
+login Performance=87 Accessibility=82 Best Practices=100 SEO=82 | LCP=2.3 s FCP=2.3 s CLS=0 TBT=360 ms
+    is-on-https 1 | Uses HTTPS 
+    csp-xss 1 | Ensure CSP is effective against XSS attacks No CSP found in enforcement mode
+    has-hsts 1 | Use a strong HSTS policy No HSTS header found
+    origin-isolation 1 | Ensure proper origin isolation with COOP No COOP header found
+    clickjacking-mitigation 1 | Mitigate clickjacking with XFO or CSP No frame control policy found
+cotizar Performance=84 Accessibility=100 Best Practices=100 SEO=83 | LCP=3.5 s FCP=2.4 s CLS=0 TBT=240 ms
+    is-on-https 1 | Uses HTTPS 
+    csp-xss 1 | Ensure CSP is effective against XSS attacks No CSP found in enforcement mode
+    has-hsts 1 | Use a strong HSTS policy No HSTS header found
+    origin-isolation 1 | Ensure proper origin isolation with COOP No COOP header found
+    clickjacking-mitigation 1 | Mitigate clickjacking with XFO or CSP No frame control policy found

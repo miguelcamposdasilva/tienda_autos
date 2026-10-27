@@ -1,122 +1,40 @@
 // backend/server.js (Versión ES Modules)
-import express from 'express';
+import crypto from 'node:crypto';
 import mysql from 'mysql2';
-import cors from 'cors';
-import bodyParser from 'body-parser';
+import { createApp } from './app.js';
 
-const app = express();
-const PORT = 3000;
-
-app.use(cors());
-app.use(bodyParser.json());
+const PORT = process.env.PORT || 3000;
 
 // Configuración de la conexión a Base de Datos
-const db = mysql.createConnection({
-    host: 'localhost',
-    port: 3307,
-    user: 'root',
-    password: '',
-    database: 'db_tienda_autos'
+// (las variables de entorno se usan en Docker; los valores por defecto son los de Laragon)
+// Se usa un pool para que las conexiones caídas se recuperen automáticamente
+const db = mysql.createPool({
+    host: process.env.DB_HOST || 'localhost',
+    port: Number(process.env.DB_PORT) || 3307,
+    user: process.env.DB_USER || 'root',
+    password: process.env.DB_PASSWORD || '',
+    database: process.env.DB_NAME || 'db_tienda_autos',
+    connectionLimit: 10
 });
 
-db.connect(err => {
+db.getConnection((err, conn) => {
     if (err) {
         console.error('Error conectando a la BD:', err);
     } else {
-        console.log('Conectado a MySQL (Laragon)');
+        console.log('Conectado a MySQL');
+        conn.release();
     }
 });
 
-// --- RUTAS DE AUTENTICACIÓN ---
+// Secreto para firmar los JWT. Si no se define, se genera uno aleatorio
+// (las sesiones se invalidan al reiniciar el servidor).
+let jwtSecret = process.env.JWT_SECRET;
+if (!jwtSecret) {
+    jwtSecret = crypto.randomBytes(32).toString('hex');
+    console.warn('JWT_SECRET no definido: se generó un secreto temporal');
+}
 
-app.post('/api/login', (req, res) => {
-    const { email, password } = req.body;
-    const sql = "SELECT * FROM users WHERE email = ? AND password = ?";
-    
-    db.query(sql, [email, password], (err, result) => {
-        if (err) return res.status(500).json(err);
-        
-        if (result.length > 0) {
-            const user = result[0];
-            res.json({ 
-                message: "Login OK", 
-                user: { id: user.id, nombre: user.nombre, email: user.email, role: user.role } 
-            });
-        } else {
-            res.status(401).json({ message: "Credenciales incorrectas" });
-        }
-    });
-});
-
-app.post('/api/register', (req, res) => {
-    const { nombre, email, password } = req.body;
-    // Forzamos rol USER
-    const sql = "INSERT INTO users (nombre, email, password, role) VALUES (?, ?, ?, 'USER')";
-    
-    db.query(sql, [nombre, email, password], (err, result) => {
-        if (err) return res.status(500).json(err);
-        res.json({ message: "Registro exitoso" });
-    });
-});
-
-// --- RUTAS CRUD DE AUTOS (ADMIN) ---
-
-// 1. Obtener todos (GET)
-app.get('/api/autos', (req, res) => {
-    db.query("SELECT * FROM autos", (err, result) => {
-        if (err) return res.status(500).send(err);
-        res.json(result);
-    });
-});
-
-// 2. Crear auto (POST)
-app.post('/api/autos', (req, res) => {
-    const { marca, modelo, annio, precio, stock, imagen, descripcion } = req.body;
-    const sql = "INSERT INTO autos (marca, modelo, annio, precio, stock, imagen, descripcion) VALUES (?,?,?,?,?,?,?)";
-    
-    db.query(sql, [marca, modelo, annio, precio, stock, imagen, descripcion], (err, result) => {
-        if (err) return res.status(500).send(err);
-        res.json({ message: "Auto creado", id: result.insertId });
-    });
-});
-
-// 3. Actualizar auto (PUT)
-app.put('/api/autos/:id', (req, res) => {
-    const { id } = req.params;
-    const { marca, modelo, annio, precio, stock, imagen, descripcion } = req.body;
-    const sql = "UPDATE autos SET marca=?, modelo=?, annio=?, precio=?, stock=?, imagen=?, descripcion=? WHERE id=?";
-    
-    db.query(sql, [marca, modelo, annio, precio, stock, imagen, descripcion, id], (err, result) => {
-        if (err) return res.status(500).send(err);
-        res.json({ message: "Auto actualizado" });
-    });
-});
-
-// 4. Eliminar auto (DELETE)
-app.delete('/api/autos/:id', (req, res) => {
-    const { id } = req.params;
-    db.query("DELETE FROM autos WHERE id = ?", [id], (err, result) => {
-        if (err) return res.status(500).send(err);
-        res.json({ message: "Auto eliminado" });
-    });
-});
-
-//5. Obtener un auto por ID (GET)
-app.get('/api/autos/:id', (req, res) => {
-    const { id } = req.params;
-    const sql = "SELECT * FROM autos WHERE id = ?";
-    
-    db.query(sql, [id], (err, result) => {
-        if (err) return res.status(500).send(err);
-        
-        if (result.length === 0) {
-            return res.status(404).json({ message: "Auto no encontrado" });
-        }
-        
-        // Devolvemos solo el objeto del auto, no un array
-        res.json(result[0]);
-    });
-});
+const app = createApp(db, { jwtSecret });
 
 // Iniciar servidor
 app.listen(PORT, () => {

@@ -31,3 +31,8 @@ lerna-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Reportes de pruebas (se regeneran)
+coverage/
+.scannerwork/
+pruebas/jmeter/resultados/

@@ -21,7 +21,7 @@ npm run test:watch
 npm test --silent
 
 # abrir reporte de cobertura (después de ejecutar npm test)
-Start-Process .\coverage\index.html
+Start-Process .\coverage\html\index.html
 ```
 
 Qué encontrarás

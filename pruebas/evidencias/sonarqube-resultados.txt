@@ -1,0 +1,52 @@
+Análisis SonarQube FINAL - Automarket - 2026-10-27 15:11
+
+Quality Gate: OK
+   new_coverage LT 80 actual=80.9 OK
+   new_duplicated_lines_density GT 3 actual=0.0 OK
+   new_violations GT 0 actual=0 OK
+coverage: 60.5
+bugs: 9
+reliability_rating: 3.0
+code_smells: 19
+duplicated_lines_density: 0.0
+security_rating: 3.0
+ncloc: 1915
+vulnerabilities: 3
+security_hotspots: 0
+sqale_index: 74
+sqale_rating: 1.0
+
+TIPO | SEVERIDAD | ARCHIVO | LÍNEA | REGLA | MENSAJE
+VULNERABILITY | MINOR | backend/Dockerfile | 1 | docker:S6471 | The "node" image runs with "root" as the default user. Make sure it is safe here.
+VULNERABILITY | MAJOR | backend/app.js | 16 | javascript:S5122 | Make sure that enabling CORS is safe here.
+BUG | MAJOR | frontend/src/pages/Catalogo.jsx | 18 | javascript:S9383 | Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+CODE_SMELL | MINOR | frontend/src/pages/Catalogo.jsx | 31 | javascript:S7773 | Prefer `Number.parseInt` over `parseInt`.
+CODE_SMELL | MINOR | frontend/src/utils/filtros.js | 15 | javascript:S7773 | Prefer `Number.parseFloat` over `parseFloat`.
+CODE_SMELL | MINOR | frontend/src/utils/filtros.js | 16 | javascript:S7773 | Prefer `Number.isNaN` over `isNaN`.
+CODE_SMELL | MINOR | frontend/src/utils/filtros.js | 22 | javascript:S7773 | Prefer `Number.parseFloat` over `parseFloat`.
+CODE_SMELL | MINOR | frontend/src/utils/filtros.js | 23 | javascript:S7773 | Prefer `Number.isNaN` over `isNaN`.
+BUG | MAJOR | frontend/src/components/Navbar.jsx | 15 | javascript:S9383 | Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+CODE_SMELL | MINOR | frontend/src/components/ProductCard.jsx | 23 | javascript:S7773 | Prefer `Number.parseInt` over `parseInt`.
+BUG | MAJOR | frontend/src/pages/AdminPanel.jsx | 35 | javascript:S9383 | Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+BUG | MAJOR | frontend/src/pages/AdminPanel.jsx | 67 | javascript:S9383 | Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+BUG | MAJOR | frontend/src/pages/AdminPanel.jsx | 81 | javascript:S9383 | Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+CODE_SMELL | MAJOR | frontend/src/pages/AdminPanel.jsx | 116 | javascript:S6853 | A form label must be associated with a control.
+CODE_SMELL | MAJOR | frontend/src/pages/AdminPanel.jsx | 120 | javascript:S6853 | A form label must be associated with a control.
+CODE_SMELL | MAJOR | frontend/src/pages/AdminPanel.jsx | 124 | javascript:S6853 | A form label must be associated with a control.
+CODE_SMELL | MAJOR | frontend/src/pages/AdminPanel.jsx | 128 | javascript:S6853 | A form label must be associated with a control.
+CODE_SMELL | MAJOR | frontend/src/pages/AdminPanel.jsx | 132 | javascript:S6853 | A form label must be associated with a control.
+CODE_SMELL | MAJOR | frontend/src/pages/AdminPanel.jsx | 136 | javascript:S6853 | A form label must be associated with a control.
+VULNERABILITY | MINOR | frontend/src/pages/AdminPanel.jsx | 137 | javascript:S5332 | Using http protocol is insecure. Use https instead.
+CODE_SMELL | MINOR | frontend/src/pages/AdminPanel.jsx | 198 | javascript:S7773 | Prefer `Number.parseInt` over `parseInt`.
+BUG | MAJOR | frontend/src/pages/Home.jsx | 11 | javascript:S9383 | Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+BUG | MAJOR | frontend/src/pages/Login.jsx | 35 | javascript:S9383 | Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+BUG | MAJOR | frontend/src/pages/Login.jsx | 37 | javascript:S9383 | Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+CODE_SMELL | MAJOR | frontend/src/pages/Login.jsx | 58 | javascript:S6853 | A form label must be associated with a control.
+CODE_SMELL | MAJOR | frontend/src/pages/Login.jsx | 74 | javascript:S6853 | A form label must be associated with a control.
+BUG | MAJOR | frontend/src/pages/Registro.jsx | 44 | javascript:S9383 | Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.
+CODE_SMELL | MAJOR | frontend/src/pages/Registro.jsx | 63 | javascript:S6853 | A form label must be associated with a control.
+CODE_SMELL | MAJOR | frontend/src/pages/Registro.jsx | 80 | javascript:S6853 | A form label must be associated with a control.
+CODE_SMELL | MAJOR | frontend/src/pages/Registro.jsx | 97 | javascript:S6853 | A form label must be associated with a control.
+CODE_SMELL | MAJOR | frontend/src/pages/Registro.jsx | 121 | javascript:S6853 | A form label must be associated with a control.
+
+SECURITY HOTSPOTS

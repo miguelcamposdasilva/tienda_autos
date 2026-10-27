@@ -1,0 +1,59 @@
+
+> backend@1.0.0 test:coverage
+> node --test --experimental-test-coverage --test-coverage-exclude=test/** --test-reporter=spec --test-reporter-destination=stdout --test-reporter=lcov --test-reporter-destination=coverage/lcov.info
+
+▶ Autenticación - POST /api/login
+  ✔ devuelve 200, los datos del usuario y un token JWT con credenciales válidas (169.2868ms)
+  ✔ no expone la contraseña ni el hash en la respuesta del login (26.1478ms)
+  ✔ devuelve 401 si el email no existe (13.0213ms)
+  ✔ devuelve 401 si la contraseña es incorrecta (13.7162ms)
+  ✔ usa consultas parametrizadas (protección contra SQL Injection) (14.7928ms)
+  ✔ devuelve 500 si la base de datos falla (11.5452ms)
+✔ Autenticación - POST /api/login (252.1497ms)
+▶ Autenticación - POST /api/register
+  ✔ registra un usuario nuevo (226.2196ms)
+  ✔ almacena la contraseña como hash bcrypt y nunca en texto plano (389.4498ms)
+  ✔ rechaza contraseñas de menos de 6 caracteres (validación en servidor) (9.5091ms)
+  ✔ fuerza el rol USER aunque el cliente envíe role ADMIN (escalamiento de privilegios) (211.7734ms)
+  ✔ devuelve 500 cuando el email ya existe (198.5172ms)
+✔ Autenticación - POST /api/register (1036.6214ms)
+▶ Catálogo - GET /api/autos (público)
+  ✔ devuelve la lista de autos sin requerir autenticación (15.2423ms)
+  ✔ devuelve un auto por id (11.0648ms)
+  ✔ devuelve 404 si el auto no existe (7.6109ms)
+  ✔ devuelve 500 si la base de datos falla (8.9973ms)
+✔ Catálogo - GET /api/autos (público) (43.9118ms)
+▶ Inventario (Admin) - POST/PUT/DELETE /api/autos con token ADMIN
+  ✔ crea un auto y devuelve su id (17.7908ms)
+  ✔ actualiza un auto existente (12.6013ms)
+  ✔ elimina un auto (11.2626ms)
+  ✔ devuelve 500 si falla la creación (11.4213ms)
+✔ Inventario (Admin) - POST/PUT/DELETE /api/autos con token ADMIN (53.7087ms)
+▶ Control de acceso (OWASP A01) - rutas de administración
+  ✔ POST /api/autos sin token devuelve 401 y no toca la BD (8.5637ms)
+  ✔ POST /api/autos con token de USER devuelve 403 (10.7216ms)
+  ✔ PUT /api/autos/1 sin token devuelve 401 y no toca la BD (10.5529ms)
+  ✔ PUT /api/autos/1 con token de USER devuelve 403 (12.1424ms)
+  ✔ DELETE /api/autos/1 sin token devuelve 401 y no toca la BD (8.6077ms)
+  ✔ DELETE /api/autos/1 con token de USER devuelve 403 (14.2335ms)
+  ✔ rechaza un token ADMIN firmado con otro secreto (token falsificado) (12.5153ms)
+  ✔ rechaza un token expirado (12.8936ms)
+  ✔ rechaza un header Authorization mal formado (9.3048ms)
+✔ Control de acceso (OWASP A01) - rutas de administración (101.3243ms)
+ℹ tests 28
+ℹ suites 5
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2658.1263
+ℹ start of coverage report
+ℹ ----------------------------------------------------------
+ℹ file      | line % | branch % | funcs % | uncovered lines
+ℹ ----------------------------------------------------------
+ℹ app.js    | 100.00 |    92.68 |  100.00 | 
+ℹ ----------------------------------------------------------
+ℹ all files | 100.00 |    92.68 |  100.00 | 
+ℹ ----------------------------------------------------------
+ℹ end of coverage report

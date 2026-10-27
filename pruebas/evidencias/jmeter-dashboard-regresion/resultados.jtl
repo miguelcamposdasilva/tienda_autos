@@ -1,0 +1,1101 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1793124411053,120,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,1404,171,5,7,http://host.docker.internal:3000/api/autos,111,0,82
+1793124411054,120,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,1404,171,5,7,http://host.docker.internal:3000/api/autos,111,0,81
+1793124411182,9,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,1404,171,5,7,http://host.docker.internal:3000/api/autos,9,0,3
+1793124411368,12,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,1404,171,6,9,http://host.docker.internal:3000/api/autos,12,0,4
+1793124411377,188,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-1,text,true,,544,246,3,10,http://host.docker.internal:3000/api/login,188,0,9
+1793124411567,11,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,1404,171,7,10,http://host.docker.internal:3000/api/autos,11,0,5
+1793124411682,9,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,498,173,8,11,http://host.docker.internal:3000/api/autos/2,9,0,0
+1793124411682,10,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,478,173,8,11,http://host.docker.internal:3000/api/autos/3,10,0,0
+1793124411692,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,484,173,8,11,http://host.docker.internal:3000/api/autos/4,6,0,0
+1793124411762,13,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,1404,171,8,11,http://host.docker.internal:3000/api/autos,13,0,6
+1793124411876,164,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-2,text,true,,544,246,4,13,http://host.docker.internal:3000/api/login,164,0,4
+1793124411882,161,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,519,173,9,13,http://host.docker.internal:3000/api/autos/1,160,0,0
+1793124411964,82,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,1404,171,9,13,http://host.docker.internal:3000/api/autos,82,0,5
+1793124412080,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,478,173,10,14,http://host.docker.internal:3000/api/autos/3,6,0,0
+1793124412167,10,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,1404,171,10,14,http://host.docker.internal:3000/api/autos,10,0,4
+1793124412192,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,1404,171,10,14,http://host.docker.internal:3000/api/autos,7,0,0
+1793124412193,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,1404,171,10,14,http://host.docker.internal:3000/api/autos,7,0,0
+1793124412200,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,1404,171,10,14,http://host.docker.internal:3000/api/autos,6,0,0
+1793124412276,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,498,173,11,15,http://host.docker.internal:3000/api/autos/2,6,0,0
+1793124412363,10,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,1404,171,11,15,http://host.docker.internal:3000/api/autos,10,0,3
+1793124412377,140,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-3,text,true,,544,246,5,17,http://host.docker.internal:3000/api/login,139,0,3
+1793124412544,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,1404,171,12,17,http://host.docker.internal:3000/api/autos,7,0,0
+1793124412547,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,519,173,12,17,http://host.docker.internal:3000/api/autos/1,7,0,0
+1793124412561,8,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,1404,171,12,17,http://host.docker.internal:3000/api/autos,8,0,3
+1793124412568,157,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-1,text,true,,544,246,5,18,http://host.docker.internal:3000/api/login,157,0,0
+1793124412588,138,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,1404,171,13,18,http://host.docker.internal:3000/api/autos,138,0,0
+1793124412678,50,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,484,173,13,18,http://host.docker.internal:3000/api/autos/4,50,0,0
+1793124412700,36,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,519,173,13,18,http://host.docker.internal:3000/api/autos/1,36,0,0
+1793124412701,37,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,519,173,13,18,http://host.docker.internal:3000/api/autos/1,37,0,0
+1793124412708,31,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,519,173,13,18,http://host.docker.internal:3000/api/autos/1,31,0,0
+1793124412760,10,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,1404,171,13,18,http://host.docker.internal:3000/api/autos,10,0,3
+1793124412783,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,1404,171,13,18,http://host.docker.internal:3000/api/autos,7,0,0
+1793124412874,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,489,173,14,20,http://host.docker.internal:3000/api/autos/5,6,0,0
+1793124412876,147,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-4,text,true,,544,246,6,20,http://host.docker.internal:3000/api/login,147,0,3
+1793124412963,63,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,1404,171,14,20,http://host.docker.internal:3000/api/autos,63,0,4
+1793124413043,143,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-2,text,true,,544,246,6,21,http://host.docker.internal:3000/api/login,143,0,0
+1793124413052,137,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,484,173,15,21,http://host.docker.internal:3000/api/autos/4,137,0,0
+1793124413055,135,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,1404,171,15,21,http://host.docker.internal:3000/api/autos,135,0,0
+1793124413071,121,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,498,173,15,21,http://host.docker.internal:3000/api/autos/2,121,0,0
+1793124413161,34,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,1404,171,15,21,http://host.docker.internal:3000/api/autos,34,0,3
+1793124413227,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,498,173,15,21,http://host.docker.internal:3000/api/autos/2,6,0,0
+1793124413229,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,1404,171,15,21,http://host.docker.internal:3000/api/autos,7,0,0
+1793124413237,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,1404,171,15,21,http://host.docker.internal:3000/api/autos,7,0,0
+1793124413239,12,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,1404,171,15,21,http://host.docker.internal:3000/api/autos,11,0,0
+1793124413240,13,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,1404,171,15,21,http://host.docker.internal:3000/api/autos,13,0,0
+1793124413271,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,478,173,16,22,http://host.docker.internal:3000/api/autos/3,6,0,0
+1793124413291,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,478,173,16,22,http://host.docker.internal:3000/api/autos/3,6,0,0
+1793124413363,13,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,1404,171,16,23,http://host.docker.internal:3000/api/autos,13,0,5
+1793124413382,12,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,1404,171,16,23,http://host.docker.internal:3000/api/autos,12,0,0
+1793124413527,191,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,484,173,18,25,http://host.docker.internal:3000/api/autos/4,191,0,0
+1793124413376,351,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-5,text,true,,544,246,7,25,http://host.docker.internal:3000/api/login,351,0,6
+1793124413565,272,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,1404,171,18,25,http://host.docker.internal:3000/api/autos,272,0,5
+1793124413691,217,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,519,173,19,27,http://host.docker.internal:3000/api/autos/1,217,0,0
+1793124413690,221,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,1404,171,19,27,http://host.docker.internal:3000/api/autos,221,0,0
+1793124413695,220,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,1404,171,19,27,http://host.docker.internal:3000/api/autos,220,0,0
+1793124413696,222,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,519,173,19,27,http://host.docker.internal:3000/api/autos/1,222,0,0
+1793124413518,529,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-3,text,true,,544,246,8,27,http://host.docker.internal:3000/api/login,529,0,0
+1793124413778,355,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,1404,171,20,28,http://host.docker.internal:3000/api/autos,355,0,0
+1793124413800,335,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,1404,171,20,28,http://host.docker.internal:3000/api/autos,335,0,0
+1793124413768,369,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,1404,171,20,28,http://host.docker.internal:3000/api/autos,369,0,6
+1793124413896,242,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,519,173,20,28,http://host.docker.internal:3000/api/autos/1,242,0,0
+1793124413883,258,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,519,173,20,28,http://host.docker.internal:3000/api/autos/1,257,0,0
+1793124413726,422,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-1,text,true,,544,246,8,28,http://host.docker.internal:3000/api/login,422,0,0
+1793124413963,603,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,1404,171,22,31,http://host.docker.internal:3000/api/autos,603,0,4
+1793124413876,740,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-6,text,true,,544,246,9,31,http://host.docker.internal:3000/api/login,740,0,11
+1793124414219,488,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,1404,171,23,32,http://host.docker.internal:3000/api/autos,488,0,0
+1793124414338,377,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,484,173,23,32,http://host.docker.internal:3000/api/autos/4,376,0,0
+1793124414409,318,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,1404,171,23,32,http://host.docker.internal:3000/api/autos,318,0,0
+1793124414024,711,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-4,text,true,,544,246,9,32,http://host.docker.internal:3000/api/login,710,0,0
+1793124414412,324,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,484,173,23,32,http://host.docker.internal:3000/api/autos/4,324,0,0
+1793124414416,424,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,489,173,23,32,http://host.docker.internal:3000/api/autos/5,424,0,0
+1793124413734,1108,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,1404,171,23,32,http://host.docker.internal:3000/api/autos,1108,0,0
+1793124413745,1097,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,498,173,23,32,http://host.docker.internal:3000/api/autos/2,1097,0,0
+1793124413742,1101,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,489,173,23,32,http://host.docker.internal:3000/api/autos/5,1100,0,0
+1793124413755,1088,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,489,173,23,32,http://host.docker.internal:3000/api/autos/5,1088,0,0
+1793124413752,1092,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,489,173,23,32,http://host.docker.internal:3000/api/autos/5,1092,0,0
+1793124414420,435,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,1404,171,23,32,http://host.docker.internal:3000/api/autos,435,0,0
+1793124414167,691,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,1404,171,23,32,http://host.docker.internal:3000/api/autos,691,0,6
+1793124414364,632,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,1404,171,24,34,http://host.docker.internal:3000/api/autos,632,0,3
+1793124414642,451,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,1404,171,25,35,http://host.docker.internal:3000/api/autos,451,0,0
+1793124414636,457,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,484,173,25,35,http://host.docker.internal:3000/api/autos/4,457,0,0
+1793124414638,455,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,489,173,25,35,http://host.docker.internal:3000/api/autos/5,455,0,0
+1793124414634,460,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,489,173,25,35,http://host.docker.internal:3000/api/autos/5,460,0,0
+1793124414639,456,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,1404,171,25,35,http://host.docker.internal:3000/api/autos,456,0,0
+1793124414187,1122,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-2,text,true,,544,246,10,36,http://host.docker.internal:3000/api/login,1122,0,0
+1793124415067,491,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,484,173,27,38,http://host.docker.internal:3000/api/autos/4,491,0,0
+1793124414563,1099,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,1404,171,28,39,http://host.docker.internal:3000/api/autos,1098,0,12
+1793124414743,927,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-5,text,true,,544,246,11,39,http://host.docker.internal:3000/api/login,926,0,0
+1793124414375,1296,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-7,text,true,,544,246,11,39,http://host.docker.internal:3000/api/login,1296,0,3
+1793124415208,617,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,478,173,28,39,http://host.docker.internal:3000/api/autos/3,616,0,0
+1793124415343,484,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,1404,171,28,39,http://host.docker.internal:3000/api/autos,484,0,0
+1793124415343,486,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,489,173,28,39,http://host.docker.internal:3000/api/autos/5,486,0,0
+1793124415341,489,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,1404,171,28,39,http://host.docker.internal:3000/api/autos,489,0,0
+1793124415216,617,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,1404,171,28,39,http://host.docker.internal:3000/api/autos,617,0,0
+1793124415236,600,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,519,173,28,39,http://host.docker.internal:3000/api/autos/1,600,0,0
+1793124415237,602,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,1404,171,28,39,http://host.docker.internal:3000/api/autos,602,0,0
+1793124415343,507,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,1404,171,28,39,http://host.docker.internal:3000/api/autos,507,0,0
+1793124415343,509,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,1404,171,28,39,http://host.docker.internal:3000/api/autos,509,0,0
+1793124415345,509,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,1404,171,28,39,http://host.docker.internal:3000/api/autos,509,0,0
+1793124415048,810,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-3,text,true,,544,246,11,39,http://host.docker.internal:3000/api/login,809,0,0
+1793124415149,718,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-1,text,true,,544,246,11,40,http://host.docker.internal:3000/api/login,718,0,0
+1793124415356,513,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,484,173,29,40,http://host.docker.internal:3000/api/autos/4,513,0,0
+1793124415359,512,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,478,173,29,40,http://host.docker.internal:3000/api/autos/3,511,0,0
+1793124415505,369,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,484,173,29,40,http://host.docker.internal:3000/api/autos/4,369,0,0
+1793124414763,1111,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,1404,171,29,40,http://host.docker.internal:3000/api/autos,1111,0,9
+1793124415594,289,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,1404,171,29,41,http://host.docker.internal:3000/api/autos,289,0,0
+1793124415594,295,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,498,173,29,41,http://host.docker.internal:3000/api/autos/2,295,0,0
+1793124415594,306,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,1404,171,29,41,http://host.docker.internal:3000/api/autos,306,0,0
+1793124415596,305,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,498,173,29,41,http://host.docker.internal:3000/api/autos/2,305,0,0
+1793124415595,306,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,1404,171,29,41,http://host.docker.internal:3000/api/autos,306,0,0
+1793124414966,1334,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,1404,171,31,43,http://host.docker.internal:3000/api/autos,1333,0,27
+1793124415164,1267,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,1404,171,31,44,http://host.docker.internal:3000/api/autos,1267,0,8
+1793124416060,373,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,1404,171,31,44,http://host.docker.internal:3000/api/autos,373,0,0
+1793124415618,826,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-6,text,true,,544,246,13,44,http://host.docker.internal:3000/api/login,826,0,0
+1793124415735,710,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-4,text,true,,544,246,13,44,http://host.docker.internal:3000/api/login,709,0,0
+1793124414876,1571,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-8,text,false,"The operation lasted too long: It took 1,571 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,13,44,http://host.docker.internal:3000/api/login,1571,0,7
+1793124416164,392,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,498,173,32,45,http://host.docker.internal:3000/api/autos/2,392,0,0
+1793124416327,231,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,1404,171,32,45,http://host.docker.internal:3000/api/autos,231,0,0
+1793124416329,232,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,484,173,32,45,http://host.docker.internal:3000/api/autos/4,232,0,0
+1793124416331,233,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,1404,171,32,45,http://host.docker.internal:3000/api/autos,233,0,0
+1793124416333,233,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,498,173,32,45,http://host.docker.internal:3000/api/autos/2,233,0,0
+1793124416336,232,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,478,173,32,45,http://host.docker.internal:3000/api/autos/3,232,0,0
+1793124416339,231,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,1404,171,32,45,http://host.docker.internal:3000/api/autos,231,0,0
+1793124416341,231,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,478,173,32,45,http://host.docker.internal:3000/api/autos/3,231,0,0
+1793124416352,221,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,489,173,32,45,http://host.docker.internal:3000/api/autos/5,221,0,0
+1793124416354,275,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,484,173,32,45,http://host.docker.internal:3000/api/autos/4,275,0,0
+1793124416356,275,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,484,173,32,45,http://host.docker.internal:3000/api/autos/4,275,0,0
+1793124416371,266,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,1404,171,32,45,http://host.docker.internal:3000/api/autos,266,0,0
+1793124416376,268,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,1404,171,32,45,http://host.docker.internal:3000/api/autos,268,0,0
+1793124416376,270,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,519,173,32,45,http://host.docker.internal:3000/api/autos/1,270,0,0
+1793124416385,262,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,519,173,32,45,http://host.docker.internal:3000/api/autos/1,262,0,0
+1793124416373,272,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,1404,171,32,45,http://host.docker.internal:3000/api/autos,272,0,0
+1793124416391,260,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,1404,171,32,45,http://host.docker.internal:3000/api/autos,259,0,0
+1793124416402,249,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,498,173,32,45,http://host.docker.internal:3000/api/autos/2,249,0,0
+1793124416403,252,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,1404,171,32,45,http://host.docker.internal:3000/api/autos,252,0,0
+1793124416311,348,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-2,text,true,,544,246,13,45,http://host.docker.internal:3000/api/login,348,0,0
+1793124416403,287,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,519,173,33,46,http://host.docker.internal:3000/api/autos/1,287,0,0
+1793124415365,1325,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,1404,171,33,46,http://host.docker.internal:3000/api/autos,1325,0,4
+1793124415566,1228,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,1404,171,33,46,http://host.docker.internal:3000/api/autos,1228,0,3
+1793124415762,1081,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,1404,171,33,46,http://host.docker.internal:3000/api/autos,1081,0,4
+1793124415377,1473,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-9,text,true,,544,246,13,46,http://host.docker.internal:3000/api/login,1473,0,4
+1793124416802,253,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,498,173,34,48,http://host.docker.internal:3000/api/autos/2,253,0,0
+1793124415964,1455,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,1404,171,36,51,http://host.docker.internal:3000/api/autos,1454,0,7
+1793124416673,762,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-7,text,true,,544,246,15,51,http://host.docker.internal:3000/api/login,762,0,0
+1793124416672,763,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-5,text,true,,544,246,15,51,http://host.docker.internal:3000/api/login,763,0,0
+1793124416933,715,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,498,173,37,52,http://host.docker.internal:3000/api/autos/2,715,0,0
+1793124416934,718,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,478,173,37,52,http://host.docker.internal:3000/api/autos/3,718,0,0
+1793124417057,598,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,1404,171,37,52,http://host.docker.internal:3000/api/autos,597,0,0
+1793124417060,597,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,484,173,37,52,http://host.docker.internal:3000/api/autos/4,597,0,0
+1793124417062,597,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,1404,171,37,52,http://host.docker.internal:3000/api/autos,597,0,0
+1793124417065,600,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,478,173,38,53,http://host.docker.internal:3000/api/autos/3,600,0,0
+1793124417067,603,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,1404,171,38,53,http://host.docker.internal:3000/api/autos,603,0,0
+1793124417069,601,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,1404,171,38,53,http://host.docker.internal:3000/api/autos,601,0,0
+1793124415879,1793,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-10,text,false,"The operation lasted too long: It took 1,793 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,15,53,http://host.docker.internal:3000/api/login,1793,0,20
+1793124417071,791,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,478,173,39,54,http://host.docker.internal:3000/api/autos/3,791,0,0
+1793124417072,796,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,1404,171,39,54,http://host.docker.internal:3000/api/autos,796,0,0
+1793124417074,798,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,1404,171,39,54,http://host.docker.internal:3000/api/autos,798,0,0
+1793124417130,742,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,1404,171,39,54,http://host.docker.internal:3000/api/autos,742,0,0
+1793124417132,745,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,1404,171,39,55,http://host.docker.internal:3000/api/autos,745,0,0
+1793124417139,751,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,489,173,39,55,http://host.docker.internal:3000/api/autos/5,751,0,0
+1793124417148,747,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,1404,171,39,55,http://host.docker.internal:3000/api/autos,747,0,0
+1793124417145,754,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,519,173,39,55,http://host.docker.internal:3000/api/autos/1,754,0,0
+1793124417147,753,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,1404,171,39,55,http://host.docker.internal:3000/api/autos,753,0,0
+1793124417151,751,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,478,173,39,55,http://host.docker.internal:3000/api/autos/3,750,0,0
+1793124416869,1057,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-1,text,true,,544,246,16,55,http://host.docker.internal:3000/api/login,1057,0,0
+1793124417152,779,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,1404,171,39,54,http://host.docker.internal:3000/api/autos,779,0,0
+1793124417152,781,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,519,173,39,54,http://host.docker.internal:3000/api/autos/1,781,0,0
+1793124417156,782,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,478,173,39,54,http://host.docker.internal:3000/api/autos/3,782,0,0
+1793124417192,750,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,519,173,39,54,http://host.docker.internal:3000/api/autos/1,750,0,0
+1793124417191,753,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,1404,171,39,54,http://host.docker.internal:3000/api/autos,753,0,0
+1793124417296,650,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,484,173,39,54,http://host.docker.internal:3000/api/autos/4,650,0,0
+1793124416162,1798,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,1404,171,39,54,http://host.docker.internal:3000/api/autos,1798,0,4
+1793124417346,616,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,489,173,39,54,http://host.docker.internal:3000/api/autos/5,616,0,0
+1793124416362,1600,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,1404,171,39,54,http://host.docker.internal:3000/api/autos,1600,0,3
+1793124416860,1200,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-3,text,true,,544,246,15,54,http://host.docker.internal:3000/api/login,1199,0,0
+1793124417556,812,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,1404,171,41,56,http://host.docker.internal:3000/api/autos,812,0,0
+1793124416563,2015,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-30,text,false,"The operation lasted too long: It took 2,015 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,42,58,http://host.docker.internal:3000/api/autos,2015,0,3
+1793124417920,659,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,484,173,42,58,http://host.docker.internal:3000/api/autos/4,659,0,0
+1793124416762,2398,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-31,text,false,"The operation lasted too long: It took 2,398 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,45,62,http://host.docker.internal:3000/api/autos,2398,0,3
+1793124418158,1004,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,1404,171,45,62,http://host.docker.internal:3000/api/autos,1004,0,0
+1793124418153,1012,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,1404,171,45,62,http://host.docker.internal:3000/api/autos,1012,0,0
+1793124418150,1019,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,1404,171,45,62,http://host.docker.internal:3000/api/autos,1018,0,0
+1793124418156,1013,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,478,173,45,62,http://host.docker.internal:3000/api/autos/3,1012,0,0
+1793124417446,1753,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-4,text,false,"The operation lasted too long: It took 1,753 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,17,62,http://host.docker.internal:3000/api/login,1753,0,0
+1793124417446,1758,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-6,text,false,"The operation lasted too long: It took 1,758 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,17,62,http://host.docker.internal:3000/api/login,1758,0,0
+1793124417451,1754,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-8,text,false,"The operation lasted too long: It took 1,754 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,17,62,http://host.docker.internal:3000/api/login,1754,0,0
+1793124416379,2841,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-11,text,false,"The operation lasted too long: It took 2,841 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,17,62,http://host.docker.internal:3000/api/login,2841,0,4
+1793124418363,881,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,1404,171,45,62,http://host.docker.internal:3000/api/autos,881,0,0
+1793124418171,1076,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,498,173,45,62,http://host.docker.internal:3000/api/autos/2,1076,0,0
+1793124418171,1082,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,519,173,45,62,http://host.docker.internal:3000/api/autos/1,1082,0,0
+1793124418166,1088,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,1404,171,45,62,http://host.docker.internal:3000/api/autos,1088,0,0
+1793124418160,1096,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,478,173,45,62,http://host.docker.internal:3000/api/autos/3,1096,0,0
+1793124418369,888,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,498,173,45,62,http://host.docker.internal:3000/api/autos/2,888,0,0
+1793124418373,887,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,498,173,45,62,http://host.docker.internal:3000/api/autos/2,887,0,0
+1793124418373,889,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,484,173,46,63,http://host.docker.internal:3000/api/autos/4,888,0,0
+1793124418378,888,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,489,173,46,63,http://host.docker.internal:3000/api/autos/5,888,0,0
+1793124418391,883,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,1404,171,46,63,http://host.docker.internal:3000/api/autos,883,0,0
+1793124417660,1616,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-2,text,false,"The operation lasted too long: It took 1,616 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,17,63,http://host.docker.internal:3000/api/login,1616,0,0
+1793124417853,1425,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-9,text,true,,544,246,17,63,http://host.docker.internal:3000/api/login,1424,0,0
+1793124418396,884,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,478,173,46,62,http://host.docker.internal:3000/api/autos/3,884,0,0
+1793124418401,880,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,1404,171,46,62,http://host.docker.internal:3000/api/autos,879,0,0
+1793124418401,881,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,498,173,46,62,http://host.docker.internal:3000/api/autos/2,881,0,0
+1793124418403,884,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,1404,171,46,62,http://host.docker.internal:3000/api/autos,884,0,0
+1793124418432,856,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,484,173,46,62,http://host.docker.internal:3000/api/autos/4,856,0,0
+1793124418434,859,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,1404,171,46,62,http://host.docker.internal:3000/api/autos,859,0,0
+1793124418439,1061,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,1404,171,47,64,http://host.docker.internal:3000/api/autos,1061,0,0
+1793124418443,1059,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,1404,171,47,64,http://host.docker.internal:3000/api/autos,1059,0,0
+1793124418445,1202,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,519,173,47,64,http://host.docker.internal:3000/api/autos/1,1202,0,0
+1793124418447,1204,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,1404,171,47,64,http://host.docker.internal:3000/api/autos,1204,0,0
+1793124418463,1191,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,1404,171,47,64,http://host.docker.internal:3000/api/autos,1191,0,0
+1793124418461,1194,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,478,173,47,64,http://host.docker.internal:3000/api/autos/3,1194,0,0
+1793124418463,1193,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,519,173,47,64,http://host.docker.internal:3000/api/autos/1,1193,0,0
+1793124418869,891,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,489,173,48,65,http://host.docker.internal:3000/api/autos/5,891,0,0
+1793124419079,784,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,498,173,49,66,http://host.docker.internal:3000/api/autos/2,784,0,0
+1793124419080,786,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,1404,171,49,66,http://host.docker.internal:3000/api/autos,786,0,0
+1793124418436,1439,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-7,text,true,,544,246,17,66,http://host.docker.internal:3000/api/login,1439,0,0
+1793124418436,1440,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-5,text,true,,544,246,18,67,http://host.docker.internal:3000/api/login,1440,0,0
+1793124416962,3156,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-32,text,false,"The operation lasted too long: It took 3,156 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,68,http://host.docker.internal:3000/api/autos,3156,0,4
+1793124417162,2960,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-33,text,false,"The operation lasted too long: It took 2,960 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,68,http://host.docker.internal:3000/api/autos,2960,0,3
+1793124417362,2763,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-34,text,false,"The operation lasted too long: It took 2,763 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,68,http://host.docker.internal:3000/api/autos,2763,0,4
+1793124418674,1466,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-10,text,true,,544,246,18,68,http://host.docker.internal:3000/api/login,1466,0,0
+1793124419060,1082,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-3,text,true,,544,246,18,68,http://host.docker.internal:3000/api/login,1082,0,0
+1793124419669,531,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,531,0,0
+1793124419666,538,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,498,173,50,67,http://host.docker.internal:3000/api/autos/2,538,0,0
+1793124419663,543,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,489,173,50,67,http://host.docker.internal:3000/api/autos/5,543,0,0
+1793124419661,550,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,489,173,50,67,http://host.docker.internal:3000/api/autos/5,550,0,0
+1793124419669,544,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,489,173,50,67,http://host.docker.internal:3000/api/autos/5,544,0,0
+1793124419745,470,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,498,173,50,67,http://host.docker.internal:3000/api/autos/2,470,0,0
+1793124419748,471,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,471,0,0
+1793124419754,468,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,468,0,0
+1793124419755,469,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,484,173,50,67,http://host.docker.internal:3000/api/autos/4,469,0,0
+1793124419757,475,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,474,0,0
+1793124419758,480,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,480,0,0
+1793124416881,3356,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-12,text,false,"The operation lasted too long: It took 3,356 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,17,67,http://host.docker.internal:3000/api/login,3356,0,4
+1793124419762,479,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,479,0,0
+1793124419762,481,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,481,0,0
+1793124419767,478,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,478,0,0
+1793124419774,472,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,478,173,50,67,http://host.docker.internal:3000/api/autos/3,472,0,0
+1793124419781,467,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,498,173,50,67,http://host.docker.internal:3000/api/autos/2,467,0,0
+1793124419781,469,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,469,0,0
+1793124419788,466,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,519,173,50,67,http://host.docker.internal:3000/api/autos/1,466,0,0
+1793124419783,472,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,472,0,0
+1793124419789,468,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,468,0,0
+1793124419794,472,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,489,173,50,67,http://host.docker.internal:3000/api/autos/5,472,0,0
+1793124420001,268,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,478,173,50,67,http://host.docker.internal:3000/api/autos/3,268,0,0
+1793124420003,267,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,484,173,50,67,http://host.docker.internal:3000/api/autos/4,267,0,0
+1793124420148,226,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,226,0,0
+1793124420152,223,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,478,173,50,67,http://host.docker.internal:3000/api/autos/3,223,0,0
+1793124420155,222,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,484,173,50,67,http://host.docker.internal:3000/api/autos/4,222,0,0
+1793124420156,223,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,222,0,0
+1793124420157,224,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,224,0,0
+1793124417563,2821,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-35,text,false,"The operation lasted too long: It took 2,821 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,67,http://host.docker.internal:3000/api/autos,2821,0,6
+1793124417762,3083,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-36,text,false,"The operation lasted too long: It took 3,083 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,67,http://host.docker.internal:3000/api/autos,3083,0,4
+1793124420261,686,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,686,0,0
+1793124417376,3578,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-13,text,false,"The operation lasted too long: It took 3,578 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,17,67,http://host.docker.internal:3000/api/login,3578,0,3
+1793124417963,3280,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-37,text,false,"The operation lasted too long: It took 3,280 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,67,http://host.docker.internal:3000/api/autos,3280,0,18
+1793124420367,877,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,498,173,50,67,http://host.docker.internal:3000/api/autos/2,877,0,0
+1793124420364,881,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,1404,171,50,67,http://host.docker.internal:3000/api/autos,881,0,0
+1793124420201,1168,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-4,text,true,,544,246,17,67,http://host.docker.internal:3000/api/login,1168,0,0
+1793124420208,1167,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-6,text,true,,544,246,16,66,http://host.docker.internal:3000/api/login,1167,0,0
+1793124420208,1169,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-8,text,true,,544,246,16,66,http://host.docker.internal:3000/api/login,1169,0,0
+1793124420221,1158,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-11,text,true,,544,246,16,66,http://host.docker.internal:3000/api/login,1158,0,0
+1793124417880,3500,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-14,text,false,"The operation lasted too long: It took 3,500 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,16,66,http://host.docker.internal:3000/api/login,3500,0,7
+1793124420701,741,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,498,173,50,66,http://host.docker.internal:3000/api/autos/2,741,0,0
+1793124420627,818,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,519,173,50,66,http://host.docker.internal:3000/api/autos/1,818,0,0
+1793124420624,825,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,484,173,50,66,http://host.docker.internal:3000/api/autos/4,825,0,0
+1793124420624,829,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,484,173,50,66,http://host.docker.internal:3000/api/autos/4,829,0,0
+1793124420705,752,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,1404,171,50,66,http://host.docker.internal:3000/api/autos,752,0,0
+1793124420707,751,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,1404,171,50,66,http://host.docker.internal:3000/api/autos,751,0,0
+1793124420712,748,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,1404,171,50,66,http://host.docker.internal:3000/api/autos,748,0,0
+1793124420714,748,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,1404,171,50,66,http://host.docker.internal:3000/api/autos,748,0,0
+1793124420719,745,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,1404,171,50,66,http://host.docker.internal:3000/api/autos,745,0,0
+1793124420720,745,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,498,173,50,66,http://host.docker.internal:3000/api/autos/2,745,0,0
+1793124420278,1195,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-9,text,true,,544,246,16,66,http://host.docker.internal:3000/api/login,1195,0,0
+1793124420723,752,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,489,173,50,66,http://host.docker.internal:3000/api/autos/5,752,0,0
+1793124420725,751,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,1404,171,50,66,http://host.docker.internal:3000/api/autos,751,0,0
+1793124420733,745,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,478,173,50,66,http://host.docker.internal:3000/api/autos/3,745,0,0
+1793124420739,740,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,519,173,50,66,http://host.docker.internal:3000/api/autos/1,740,0,0
+1793124420742,739,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,498,173,50,66,http://host.docker.internal:3000/api/autos/2,739,0,0
+1793124420744,738,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,519,173,50,66,http://host.docker.internal:3000/api/autos/1,738,0,0
+1793124420746,741,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,489,173,50,66,http://host.docker.internal:3000/api/autos/5,741,0,0
+1793124420746,748,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,1404,171,50,66,http://host.docker.internal:3000/api/autos,748,0,0
+1793124420749,746,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,1404,171,50,66,http://host.docker.internal:3000/api/autos,746,0,0
+1793124420756,741,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,519,173,50,66,http://host.docker.internal:3000/api/autos/1,741,0,0
+1793124420754,746,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,478,173,50,66,http://host.docker.internal:3000/api/autos/3,746,0,0
+1793124420756,747,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,1404,171,50,66,http://host.docker.internal:3000/api/autos,747,0,0
+1793124420759,748,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,498,173,50,66,http://host.docker.internal:3000/api/autos/2,748,0,0
+1793124420767,744,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,1404,171,50,66,http://host.docker.internal:3000/api/autos,744,0,0
+1793124420770,743,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,1404,171,50,66,http://host.docker.internal:3000/api/autos,742,0,0
+1793124420771,743,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,1404,171,50,66,http://host.docker.internal:3000/api/autos,743,0,0
+1793124420876,649,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,1404,171,50,66,http://host.docker.internal:3000/api/autos,649,0,0
+1793124420875,650,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,489,173,50,66,http://host.docker.internal:3000/api/autos/5,650,0,0
+1793124420878,1015,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,1404,171,50,66,http://host.docker.internal:3000/api/autos,1015,0,0
+1793124420879,1016,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,478,173,50,66,http://host.docker.internal:3000/api/autos/3,1016,0,0
+1793124420882,1014,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,489,173,50,66,http://host.docker.internal:3000/api/autos/5,1014,0,0
+1793124420885,1013,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,489,173,50,66,http://host.docker.internal:3000/api/autos/5,1013,0,0
+1793124418165,3836,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-38,text,false,"The operation lasted too long: It took 3,836 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,66,http://host.docker.internal:3000/api/autos,3836,0,7
+1793124421346,759,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,519,173,50,66,http://host.docker.internal:3000/api/autos/1,759,0,0
+1793124418362,3744,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-39,text,false,"The operation lasted too long: It took 3,744 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,66,http://host.docker.internal:3000/api/autos,3744,0,5
+1793124421448,663,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,519,173,50,66,http://host.docker.internal:3000/api/autos/1,663,0,0
+1793124420876,1246,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-7,text,true,,544,246,16,66,http://host.docker.internal:3000/api/login,1246,0,0
+1793124420877,1248,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-5,text,true,,544,246,16,66,http://host.docker.internal:3000/api/login,1248,0,0
+1793124418562,3836,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-40,text,false,"The operation lasted too long: It took 3,836 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,65,http://host.docker.internal:3000/api/autos,3836,0,4
+1793124418761,3638,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-41,text,false,"The operation lasted too long: It took 3,638 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,65,http://host.docker.internal:3000/api/autos,3638,0,4
+1793124421746,658,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,489,173,50,65,http://host.docker.internal:3000/api/autos/5,657,0,0
+1793124421744,660,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,498,173,50,65,http://host.docker.internal:3000/api/autos/2,659,0,0
+1793124421745,662,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,662,0,0
+1793124421141,1286,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-10,text,true,,544,246,15,65,http://host.docker.internal:3000/api/login,1286,0,0
+1793124421239,1194,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-12,text,true,,544,246,15,65,http://host.docker.internal:3000/api/login,1194,0,0
+1793124421957,547,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,498,173,50,65,http://host.docker.internal:3000/api/autos/2,547,0,0
+1793124421954,654,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,654,0,0
+1793124421950,661,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,661,0,0
+1793124421946,668,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,668,0,0
+1793124421943,673,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,673,0,0
+1793124421959,663,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,498,173,50,65,http://host.docker.internal:3000/api/autos/2,663,0,0
+1793124421963,664,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,498,173,50,65,http://host.docker.internal:3000/api/autos/2,664,0,0
+1793124421961,669,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,484,173,50,65,http://host.docker.internal:3000/api/autos/4,669,0,0
+1793124421964,670,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,478,173,50,65,http://host.docker.internal:3000/api/autos/3,670,0,0
+1793124418376,4260,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-15,text,false,"The operation lasted too long: It took 4,260 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,15,65,http://host.docker.internal:3000/api/login,4260,0,5
+1793124421966,714,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,714,0,0
+1793124421975,707,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,706,0,0
+1793124421977,705,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,489,173,50,65,http://host.docker.internal:3000/api/autos/5,705,0,0
+1793124421978,707,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,707,0,0
+1793124421980,710,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,710,0,0
+1793124421981,713,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,712,0,0
+1793124421983,712,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,712,0,0
+1793124421988,709,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,709,0,0
+1793124421995,704,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,519,173,50,65,http://host.docker.internal:3000/api/autos/1,704,0,0
+1793124421996,704,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,519,173,50,65,http://host.docker.internal:3000/api/autos/1,704,0,0
+1793124421956,752,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-13,text,true,,544,246,15,65,http://host.docker.internal:3000/api/login,752,0,0
+1793124421998,713,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,713,0,0
+1793124422001,716,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,716,0,0
+1793124422004,715,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,489,173,50,65,http://host.docker.internal:3000/api/autos/5,715,0,0
+1793124422008,714,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,714,0,0
+1793124422012,712,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,484,173,50,65,http://host.docker.internal:3000/api/autos/4,712,0,0
+1793124422013,717,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,498,173,50,65,http://host.docker.internal:3000/api/autos/2,717,0,0
+1793124422015,723,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,519,173,50,65,http://host.docker.internal:3000/api/autos/1,723,0,0
+1793124422025,713,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,713,0,0
+1793124422025,716,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,498,173,50,65,http://host.docker.internal:3000/api/autos/2,715,0,0
+1793124422394,887,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,478,173,50,65,http://host.docker.internal:3000/api/autos/3,887,0,0
+1793124422396,887,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,887,0,0
+1793124422397,888,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,888,0,0
+1793124422399,887,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,887,0,0
+1793124418961,4428,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-42,text,false,"The operation lasted too long: It took 4,428 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,65,http://host.docker.internal:3000/api/autos,4428,0,5
+1793124418877,4515,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-16,text,false,"The operation lasted too long: It took 4,515 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,15,65,http://host.docker.internal:3000/api/login,4515,0,4
+1793124422502,1046,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,498,173,50,65,http://host.docker.internal:3000/api/autos/2,1045,0,0
+1793124422606,942,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,942,0,0
+1793124422607,943,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,498,173,50,65,http://host.docker.internal:3000/api/autos/2,943,0,0
+1793124422612,940,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,1404,171,50,65,http://host.docker.internal:3000/api/autos,940,0,0
+1793124419166,4387,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-43,text,false,"The operation lasted too long: It took 4,387 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,65,http://host.docker.internal:3000/api/autos,4387,0,6
+1793124419362,4192,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-44,text,false,"The operation lasted too long: It took 4,192 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,65,http://host.docker.internal:3000/api/autos,4192,0,3
+1793124422376,1296,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-6,text,true,,544,246,15,65,http://host.docker.internal:3000/api/login,1296,0,0
+1793124422378,1296,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-8,text,true,,544,246,15,65,http://host.docker.internal:3000/api/login,1296,0,0
+1793124422380,1297,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-11,text,true,,544,246,14,64,http://host.docker.internal:3000/api/login,1297,0,0
+1793124422381,1297,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-14,text,true,,544,246,14,64,http://host.docker.internal:3000/api/login,1297,0,0
+1793124422474,1204,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-9,text,true,,544,246,14,64,http://host.docker.internal:3000/api/login,1204,0,0
+1793124423109,610,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,478,173,50,64,http://host.docker.internal:3000/api/autos/3,610,0,0
+1793124423005,716,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,1404,171,50,64,http://host.docker.internal:3000/api/autos,716,0,0
+1793124422908,814,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,519,173,50,64,http://host.docker.internal:3000/api/autos/1,814,0,0
+1793124422904,820,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,1404,171,50,64,http://host.docker.internal:3000/api/autos,820,0,0
+1793124422905,820,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,1404,171,50,64,http://host.docker.internal:3000/api/autos,820,0,0
+1793124422900,827,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,519,173,50,64,http://host.docker.internal:3000/api/autos/1,827,0,0
+1793124422899,830,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,519,173,50,64,http://host.docker.internal:3000/api/autos/1,830,0,0
+1793124423112,621,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,478,173,50,64,http://host.docker.internal:3000/api/autos/3,621,0,0
+1793124423115,621,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,498,173,50,64,http://host.docker.internal:3000/api/autos/2,621,0,0
+1793124423117,621,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,489,173,50,64,http://host.docker.internal:3000/api/autos/5,621,0,0
+1793124419377,4365,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-17,text,false,"The operation lasted too long: It took 4,365 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,14,64,http://host.docker.internal:3000/api/login,4365,0,3
+1793124423124,721,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,1404,171,50,64,http://host.docker.internal:3000/api/autos,721,0,0
+1793124423127,722,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,1404,171,50,64,http://host.docker.internal:3000/api/autos,722,0,0
+1793124423131,725,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,1404,171,50,64,http://host.docker.internal:3000/api/autos,724,0,0
+1793124423134,724,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,1404,171,50,64,http://host.docker.internal:3000/api/autos,724,0,0
+1793124423181,678,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,484,173,50,64,http://host.docker.internal:3000/api/autos/4,678,0,0
+1793124423182,679,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,484,173,50,64,http://host.docker.internal:3000/api/autos/4,678,0,0
+1793124423184,678,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,1404,171,50,64,http://host.docker.internal:3000/api/autos,678,0,0
+1793124423185,679,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,489,173,50,64,http://host.docker.internal:3000/api/autos/5,679,0,0
+1793124423191,681,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,478,173,50,64,http://host.docker.internal:3000/api/autos/3,681,0,0
+1793124423194,744,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,498,173,50,64,http://host.docker.internal:3000/api/autos/2,744,0,0
+1793124423196,744,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,498,173,50,64,http://host.docker.internal:3000/api/autos/2,743,0,0
+1793124423198,743,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,484,173,50,64,http://host.docker.internal:3000/api/autos/4,743,0,0
+1793124423200,743,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,1404,171,50,64,http://host.docker.internal:3000/api/autos,742,0,0
+1793124423201,744,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,1404,171,50,64,http://host.docker.internal:3000/api/autos,744,0,0
+1793124423212,735,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,484,173,50,64,http://host.docker.internal:3000/api/autos/4,735,0,0
+1793124423218,731,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,484,173,50,64,http://host.docker.internal:3000/api/autos/4,731,0,0
+1793124423220,733,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,1404,171,50,64,http://host.docker.internal:3000/api/autos,733,0,0
+1793124423222,733,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,519,173,50,64,http://host.docker.internal:3000/api/autos/1,733,0,0
+1793124423225,731,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,1404,171,50,64,http://host.docker.internal:3000/api/autos,731,0,0
+1793124423123,837,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-7,text,true,,544,246,14,64,http://host.docker.internal:3000/api/login,837,0,0
+1793124423231,730,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,1404,171,50,64,http://host.docker.internal:3000/api/autos,730,0,0
+1793124423239,724,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,1404,171,50,64,http://host.docker.internal:3000/api/autos,724,0,0
+1793124423240,729,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,478,173,50,63,http://host.docker.internal:3000/api/autos/3,729,0,0
+1793124423242,732,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,732,0,0
+1793124419564,4615,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-45,text,false,"The operation lasted too long: It took 4,615 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,63,http://host.docker.internal:3000/api/autos,4615,0,4
+1793124419763,4620,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-46,text,false,"The operation lasted too long: It took 4,620 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,63,http://host.docker.internal:3000/api/autos,4620,0,3
+1793124423782,1044,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,1044,0,0
+1793124423787,1044,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,498,173,50,63,http://host.docker.internal:3000/api/autos/2,1044,0,0
+1793124423784,1047,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,478,173,50,63,http://host.docker.internal:3000/api/autos/3,1046,0,0
+1793124423786,1045,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,484,173,50,63,http://host.docker.internal:3000/api/autos/4,1044,0,0
+1793124423890,941,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,519,173,50,63,http://host.docker.internal:3000/api/autos/1,941,0,0
+1793124419961,4872,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-47,text,false,"The operation lasted too long: It took 4,872 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,63,http://host.docker.internal:3000/api/autos,4872,0,4
+1793124420163,4671,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-48,text,false,"The operation lasted too long: It took 4,671 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,63,http://host.docker.internal:3000/api/autos,4671,0,4
+1793124423428,1448,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-10,text,true,,544,246,13,63,http://host.docker.internal:3000/api/login,1448,0,0
+1793124423434,1451,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-12,text,true,,544,246,13,63,http://host.docker.internal:3000/api/login,1451,0,0
+1793124424222,818,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,519,173,50,63,http://host.docker.internal:3000/api/autos/1,818,0,0
+1793124424220,822,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,822,0,0
+1793124424055,988,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,519,173,50,63,http://host.docker.internal:3000/api/autos/1,988,0,0
+1793124424054,990,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,478,173,50,63,http://host.docker.internal:3000/api/autos/3,990,0,0
+1793124424052,994,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,484,173,50,63,http://host.docker.internal:3000/api/autos/4,994,0,0
+1793124424051,998,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,998,0,0
+1793124424049,1002,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,489,173,50,63,http://host.docker.internal:3000/api/autos/5,1002,0,0
+1793124424048,1007,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,1007,0,0
+1793124424224,835,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,835,0,0
+1793124424224,836,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,478,173,50,63,http://host.docker.internal:3000/api/autos/3,836,0,0
+1793124423637,1426,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-15,text,true,,544,246,13,63,http://host.docker.internal:3000/api/login,1426,0,0
+1793124423709,1356,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-13,text,true,,544,246,13,63,http://host.docker.internal:3000/api/login,1356,0,0
+1793124424226,891,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,484,173,50,63,http://host.docker.internal:3000/api/autos/4,891,0,0
+1793124424228,892,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,892,0,0
+1793124424229,892,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,892,0,0
+1793124424234,889,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,889,0,0
+1793124424236,888,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,888,0,0
+1793124424239,887,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,887,0,0
+1793124424346,781,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,498,173,50,63,http://host.docker.internal:3000/api/autos/2,781,0,0
+1793124424350,781,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,489,173,50,63,http://host.docker.internal:3000/api/autos/5,781,0,0
+1793124424356,778,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,489,173,50,63,http://host.docker.internal:3000/api/autos/5,778,0,0
+1793124424358,783,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,519,173,50,63,http://host.docker.internal:3000/api/autos/1,783,0,0
+1793124419876,5265,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-18,text,false,"The operation lasted too long: It took 5,265 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,13,63,http://host.docker.internal:3000/api/login,5265,0,4
+1793124424360,784,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,784,0,0
+1793124424361,783,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,783,0,0
+1793124424363,789,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,489,173,50,63,http://host.docker.internal:3000/api/autos/5,789,0,0
+1793124424365,791,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,791,0,0
+1793124424373,784,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,784,0,0
+1793124424438,822,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,822,0,0
+1793124424440,821,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,821,0,0
+1793124424441,823,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,823,0,0
+1793124424443,823,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,484,173,50,63,http://host.docker.internal:3000/api/autos/4,823,0,0
+1793124424446,875,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,498,173,50,63,http://host.docker.internal:3000/api/autos/2,875,0,0
+1793124424448,874,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,874,0,0
+1793124424450,873,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,873,0,0
+1793124424453,872,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,484,173,50,63,http://host.docker.internal:3000/api/autos/4,872,0,0
+1793124424456,871,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,871,0,0
+1793124424456,874,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,489,173,50,63,http://host.docker.internal:3000/api/autos/5,874,0,0
+1793124424462,871,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,519,173,50,63,http://host.docker.internal:3000/api/autos/1,871,0,0
+1793124424463,873,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,519,173,50,63,http://host.docker.internal:3000/api/autos/1,873,0,0
+1793124424470,867,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,867,0,0
+1793124424475,863,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,484,173,50,63,http://host.docker.internal:3000/api/autos/4,863,0,0
+1793124424393,952,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-16,text,true,,544,246,13,63,http://host.docker.internal:3000/api/login,952,0,0
+1793124424681,978,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,519,173,50,63,http://host.docker.internal:3000/api/autos/1,978,0,0
+1793124420362,5399,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-49,text,false,"The operation lasted too long: It took 5,399 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,63,http://host.docker.internal:3000/api/autos,5399,0,3
+1793124424886,979,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,484,173,50,63,http://host.docker.internal:3000/api/autos/4,979,0,0
+1793124420561,5424,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-50,text,false,"The operation lasted too long: It took 5,424 milliseconds, but should not have lasted longer than 2,000 milliseconds.",1404,171,50,63,http://host.docker.internal:3000/api/autos,5424,0,4
+1793124425339,1197,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,489,173,50,63,http://host.docker.internal:3000/api/autos/5,1197,0,0
+1793124425334,1203,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,498,173,50,63,http://host.docker.internal:3000/api/autos/2,1203,0,0
+1793124425331,1207,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,1207,0,0
+1793124425331,1209,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,1208,0,0
+1793124425331,1209,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,1209,0,0
+1793124425331,1211,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,1404,171,50,63,http://host.docker.internal:3000/api/autos,1210,0,0
+1793124425327,1216,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,478,173,50,63,http://host.docker.internal:3000/api/autos/3,1216,0,0
+1793124424679,1900,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-9,text,false,"The operation lasted too long: It took 1,900 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,13,63,http://host.docker.internal:3000/api/login,1900,0,0
+1793124424678,1901,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-11,text,false,"The operation lasted too long: It took 1,901 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,13,63,http://host.docker.internal:3000/api/login,1901,0,0
+1793124424679,1901,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-14,text,false,"The operation lasted too long: It took 1,901 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,13,63,http://host.docker.internal:3000/api/login,1901,0,0
+1793124424743,1842,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-17,text,false,"The operation lasted too long: It took 1,842 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,12,62,http://host.docker.internal:3000/api/login,1842,0,0
+1793124420377,6211,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-19,text,false,"The operation lasted too long: It took 6,211 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,12,62,http://host.docker.internal:3000/api/login,6211,0,3
+1793124425556,1085,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,478,173,50,62,http://host.docker.internal:3000/api/autos/3,1085,0,0
+1793124425552,1091,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,1404,171,50,62,http://host.docker.internal:3000/api/autos,1091,0,0
+1793124425549,1095,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,478,173,50,62,http://host.docker.internal:3000/api/autos/3,1095,0,0
+1793124425546,1100,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,1404,171,50,62,http://host.docker.internal:3000/api/autos,1100,0,0
+1793124425545,1102,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,1404,171,50,62,http://host.docker.internal:3000/api/autos,1102,0,0
+1793124425544,1104,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,1404,171,50,62,http://host.docker.internal:3000/api/autos,1104,0,0
+1793124425542,1108,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,478,173,50,62,http://host.docker.internal:3000/api/autos/3,1108,0,0
+1793124425540,1111,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,1404,171,50,62,http://host.docker.internal:3000/api/autos,1111,0,0
+1793124425559,1093,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,478,173,50,62,http://host.docker.internal:3000/api/autos/3,1093,0,0
+1793124425561,1093,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,1404,171,50,62,http://host.docker.internal:3000/api/autos,1093,0,0
+1793124424674,1982,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-8,text,false,"The operation lasted too long: It took 1,982 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,12,62,http://host.docker.internal:3000/api/login,1982,0,0
+1793124420876,5786,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-20,text,false,"The operation lasted too long: It took 5,786 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,11,61,http://host.docker.internal:3000/api/login,5786,0,4
+1793124425618,1048,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,1048,0,0
+1793124425621,1047,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,489,173,50,61,http://host.docker.internal:3000/api/autos/5,1047,0,0
+1793124425622,1048,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,489,173,50,61,http://host.docker.internal:3000/api/autos/5,1048,0,0
+1793124425624,1048,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,519,173,50,61,http://host.docker.internal:3000/api/autos/1,1048,0,0
+1793124425625,1049,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,489,173,50,61,http://host.docker.internal:3000/api/autos/5,1049,0,0
+1793124425627,1048,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,478,173,50,61,http://host.docker.internal:3000/api/autos/3,1048,0,0
+1793124425628,1049,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,1049,0,0
+1793124425632,1046,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,1046,0,0
+1793124425635,1045,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,1045,0,0
+1793124425642,1040,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,1040,0,0
+1793124425645,1041,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,519,173,50,61,http://host.docker.internal:3000/api/autos/1,1041,0,0
+1793124425645,1044,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,478,173,50,61,http://host.docker.internal:3000/api/autos/3,1044,0,0
+1793124425653,1038,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,1038,0,0
+1793124425657,1036,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,478,173,50,61,http://host.docker.internal:3000/api/autos/3,1036,0,0
+1793124425658,1036,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,484,173,50,61,http://host.docker.internal:3000/api/autos/4,1036,0,0
+1793124425760,935,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,498,173,50,61,http://host.docker.internal:3000/api/autos/2,935,0,0
+1793124425762,935,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,484,173,50,61,http://host.docker.internal:3000/api/autos/4,935,0,0
+1793124425765,933,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,519,173,50,61,http://host.docker.internal:3000/api/autos/1,933,0,0
+1793124425767,933,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,933,0,0
+1793124425822,883,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,883,0,0
+1793124425823,884,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,519,173,50,61,http://host.docker.internal:3000/api/autos/1,884,0,0
+1793124425824,886,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,498,173,50,61,http://host.docker.internal:3000/api/autos/2,886,0,0
+1793124425825,886,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,886,0,0
+1793124425828,888,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,519,173,50,61,http://host.docker.internal:3000/api/autos/1,888,0,0
+1793124425831,893,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,893,0,0
+1793124425833,892,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,891,0,0
+1793124425837,888,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,478,173,50,61,http://host.docker.internal:3000/api/autos/3,888,0,0
+1793124425837,888,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,888,0,0
+1793124425839,886,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,886,0,0
+1793124426264,862,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,489,173,50,61,http://host.docker.internal:3000/api/autos/5,862,0,0
+1793124426365,864,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,864,0,0
+1793124426487,1220,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,484,173,50,61,http://host.docker.internal:3000/api/autos/4,1220,0,0
+1793124426160,1549,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,1549,0,0
+1793124425887,1843,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-12,text,false,"The operation lasted too long: It took 1,843 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,11,61,http://host.docker.internal:3000/api/login,1843,0,0
+1793124426064,1668,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-15,text,false,"The operation lasted too long: It took 1,668 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,11,61,http://host.docker.internal:3000/api/login,1668,0,0
+1793124426065,1668,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-13,text,false,"The operation lasted too long: It took 1,668 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,11,61,http://host.docker.internal:3000/api/login,1668,0,0
+1793124426142,1593,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-18,text,false,"The operation lasted too long: It took 1,593 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,11,61,http://host.docker.internal:3000/api/login,1593,0,0
+1793124426346,1390,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-16,text,true,,544,246,11,61,http://host.docker.internal:3000/api/login,1390,0,0
+1793124425877,1862,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-10,text,false,"The operation lasted too long: It took 1,862 milliseconds, but should not have lasted longer than 1,500 milliseconds.",544,246,11,61,http://host.docker.internal:3000/api/login,1862,0,0
+1793124427038,701,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,1404,171,50,61,http://host.docker.internal:3000/api/autos,701,0,0
+1793124427038,707,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,707,0,0
+1793124427042,705,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,498,173,50,60,http://host.docker.internal:3000/api/autos/2,705,0,0
+1793124427040,709,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,478,173,50,60,http://host.docker.internal:3000/api/autos/3,709,0,0
+1793124427041,711,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,519,173,50,60,http://host.docker.internal:3000/api/autos/1,710,0,0
+1793124427043,708,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,708,0,0
+1793124427041,712,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,484,173,50,60,http://host.docker.internal:3000/api/autos/4,712,0,0
+1793124427142,613,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,613,0,0
+1793124427144,615,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,519,173,50,60,http://host.docker.internal:3000/api/autos/1,615,0,0
+1793124427144,619,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,619,0,0
+1793124427146,621,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,484,173,50,60,http://host.docker.internal:3000/api/autos/4,621,0,0
+1793124427149,621,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,484,173,50,60,http://host.docker.internal:3000/api/autos/4,621,0,0
+1793124427148,622,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,498,173,50,60,http://host.docker.internal:3000/api/autos/2,622,0,0
+1793124427150,621,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,621,0,0
+1793124427151,622,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,498,173,50,60,http://host.docker.internal:3000/api/autos/2,622,0,0
+1793124427153,625,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,625,0,0
+1793124427155,643,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,484,173,50,60,http://host.docker.internal:3000/api/autos/4,643,0,0
+1793124427169,629,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,629,0,0
+1793124427171,627,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,627,0,0
+1793124427173,627,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,627,0,0
+1793124427174,629,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,629,0,0
+1793124427167,633,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,519,173,50,60,http://host.docker.internal:3000/api/autos/1,633,0,0
+1793124427176,631,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,631,0,0
+1793124427178,630,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,519,173,50,60,http://host.docker.internal:3000/api/autos/1,629,0,0
+1793124427179,636,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,484,173,50,60,http://host.docker.internal:3000/api/autos/4,636,0,0
+1793124427181,642,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,498,173,50,60,http://host.docker.internal:3000/api/autos/2,642,0,0
+1793124427190,637,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,637,0,0
+1793124427183,644,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,478,173,50,60,http://host.docker.internal:3000/api/autos/3,644,0,0
+1793124427187,640,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,640,0,0
+1793124427192,637,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,519,173,50,60,http://host.docker.internal:3000/api/autos/1,637,0,0
+1793124427193,639,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,639,0,0
+1793124427195,640,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,640,0,0
+1793124427196,641,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,641,0,0
+1793124427197,642,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,642,0,0
+1793124427198,643,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,643,0,0
+1793124427201,643,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,498,173,50,60,http://host.docker.internal:3000/api/autos/2,643,0,0
+1793124427206,643,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,519,173,50,60,http://host.docker.internal:3000/api/autos/1,643,0,0
+1793124427208,645,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,645,0,0
+1793124427211,643,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,643,0,0
+1793124427211,645,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,489,173,50,60,http://host.docker.internal:3000/api/autos/5,644,0,0
+1793124427217,640,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,640,0,0
+1793124427224,635,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,519,173,50,60,http://host.docker.internal:3000/api/autos/1,635,0,0
+1793124427225,636,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,636,0,0
+1793124427225,637,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,519,173,50,60,http://host.docker.internal:3000/api/autos/1,637,0,0
+1793124427226,644,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,498,173,50,60,http://host.docker.internal:3000/api/autos/2,644,0,0
+1793124427226,646,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,478,173,50,60,http://host.docker.internal:3000/api/autos/3,646,0,0
+1793124427627,899,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,899,0,0
+1793124427729,902,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,478,173,50,60,http://host.docker.internal:3000/api/autos/3,902,0,0
+1793124427581,1094,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-14,text,true,,544,246,10,60,http://host.docker.internal:3000/api/login,1094,0,0
+1793124427586,1092,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-17,text,true,,544,246,10,60,http://host.docker.internal:3000/api/login,1092,0,0
+1793124427589,1091,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-19,text,true,,544,246,10,60,http://host.docker.internal:3000/api/login,1091,0,0
+1793124428240,521,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,489,173,50,60,http://host.docker.internal:3000/api/autos/5,520,0,0
+1793124428209,552,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,489,173,50,60,http://host.docker.internal:3000/api/autos/5,552,0,0
+1793124428208,555,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,555,0,0
+1793124428246,518,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,519,173,50,60,http://host.docker.internal:3000/api/autos/1,518,0,0
+1793124428248,518,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,518,0,0
+1793124428251,516,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,516,0,0
+1793124428252,517,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,517,0,0
+1793124428252,523,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,498,173,50,60,http://host.docker.internal:3000/api/autos/2,523,0,0
+1793124428254,526,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,1404,171,50,60,http://host.docker.internal:3000/api/autos,526,0,0
+1793124428256,525,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,498,173,50,60,http://host.docker.internal:3000/api/autos/2,525,0,0
+1793124427580,1207,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-11,text,true,,544,246,10,60,http://host.docker.internal:3000/api/login,1207,0,0
+1793124427664,1129,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-20,text,true,,544,246,9,59,http://host.docker.internal:3000/api/login,1129,0,0
+1793124428259,542,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,542,0,0
+1793124428264,539,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,489,173,50,59,http://host.docker.internal:3000/api/autos/5,539,0,0
+1793124428268,536,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,536,0,0
+1793124428271,538,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,538,0,0
+1793124428271,539,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,539,0,0
+1793124428274,538,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,538,0,0
+1793124428272,540,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,484,173,50,59,http://host.docker.internal:3000/api/autos/4,540,0,0
+1793124428279,538,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,519,173,50,59,http://host.docker.internal:3000/api/autos/1,535,0,0
+1793124428307,521,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,498,173,50,59,http://host.docker.internal:3000/api/autos/2,521,0,0
+1793124428299,529,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,529,0,0
+1793124428306,522,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,478,173,50,59,http://host.docker.internal:3000/api/autos/3,522,0,0
+1793124428299,530,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,498,173,50,59,http://host.docker.internal:3000/api/autos/2,529,0,0
+1793124428299,529,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,484,173,50,59,http://host.docker.internal:3000/api/autos/4,529,0,0
+1793124428306,524,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,524,0,0
+1793124428308,525,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,525,0,0
+1793124428308,529,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,478,173,50,59,http://host.docker.internal:3000/api/autos/3,529,0,0
+1793124428316,525,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,525,0,0
+1793124428324,518,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,518,0,0
+1793124428327,519,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,519,173,50,59,http://host.docker.internal:3000/api/autos/1,519,0,0
+1793124428330,517,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,517,0,0
+1793124428340,524,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,498,173,50,59,http://host.docker.internal:3000/api/autos/2,524,0,0
+1793124428338,526,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,478,173,50,59,http://host.docker.internal:3000/api/autos/3,526,0,0
+1793124428336,528,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,519,173,50,59,http://host.docker.internal:3000/api/autos/1,528,0,0
+1793124428333,532,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,478,173,50,59,http://host.docker.internal:3000/api/autos/3,532,0,0
+1793124428332,533,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,533,0,0
+1793124428345,522,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,522,0,0
+1793124428342,529,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,478,173,50,59,http://host.docker.internal:3000/api/autos/3,529,0,0
+1793124428349,527,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,527,0,0
+1793124428328,550,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,489,173,50,59,http://host.docker.internal:3000/api/autos/5,550,0,0
+1793124428353,528,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,489,173,50,59,http://host.docker.internal:3000/api/autos/5,528,0,0
+1793124428355,527,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,498,173,50,59,http://host.docker.internal:3000/api/autos/2,527,0,0
+1793124428356,529,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,528,0,0
+1793124428358,528,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,484,173,50,59,http://host.docker.internal:3000/api/autos/4,528,0,0
+1793124428360,532,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,532,0,0
+1793124428361,532,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,484,173,50,59,http://host.docker.internal:3000/api/autos/4,532,0,0
+1793124428362,532,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,532,0,0
+1793124428370,526,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,526,0,0
+1793124428373,524,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,1404,171,50,59,http://host.docker.internal:3000/api/autos,524,0,0
+1793124428734,1104,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-13,text,true,,544,246,9,59,http://host.docker.internal:3000/api/login,1104,0,0
+1793124428735,1105,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-15,text,true,,544,246,8,58,http://host.docker.internal:3000/api/login,1105,0,0
+1793124428736,1106,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-18,text,true,,544,246,8,58,http://host.docker.internal:3000/api/login,1106,0,0
+1793124428737,1106,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-16,text,true,,544,246,8,58,http://host.docker.internal:3000/api/login,1106,0,0
+1793124429026,823,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,478,173,50,58,http://host.docker.internal:3000/api/autos/3,823,0,0
+1793124429131,720,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,1404,171,50,58,http://host.docker.internal:3000/api/autos,720,0,0
+1793124429261,594,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,1404,171,50,58,http://host.docker.internal:3000/api/autos,594,0,0
+1793124429261,598,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,1404,171,50,58,http://host.docker.internal:3000/api/autos,598,0,0
+1793124429263,597,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,484,173,50,58,http://host.docker.internal:3000/api/autos/4,597,0,0
+1793124429265,598,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,1404,171,50,58,http://host.docker.internal:3000/api/autos,598,0,0
+1793124429266,600,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,484,173,50,58,http://host.docker.internal:3000/api/autos/4,600,0,0
+1793124429268,603,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,519,173,50,58,http://host.docker.internal:3000/api/autos/1,603,0,0
+1793124429269,605,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,519,173,50,58,http://host.docker.internal:3000/api/autos/1,605,0,0
+1793124429275,602,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,1404,171,50,58,http://host.docker.internal:3000/api/autos,602,0,0
+1793124429281,599,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,484,173,50,58,http://host.docker.internal:3000/api/autos/4,599,0,0
+1793124428732,1149,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-12,text,true,,544,246,8,58,http://host.docker.internal:3000/api/login,1149,0,0
+1793124429282,602,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,602,0,0
+1793124429302,585,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,489,173,50,57,http://host.docker.internal:3000/api/autos/5,585,0,0
+1793124429304,588,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,588,0,0
+1793124429309,585,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,519,173,50,57,http://host.docker.internal:3000/api/autos/1,585,0,0
+1793124429310,586,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,519,173,50,57,http://host.docker.internal:3000/api/autos/1,586,0,0
+1793124429311,587,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,478,173,50,57,http://host.docker.internal:3000/api/autos/3,587,0,0
+1793124429313,586,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,586,0,0
+1793124429313,587,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,519,173,50,57,http://host.docker.internal:3000/api/autos/1,587,0,0
+1793124429317,588,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,588,0,0
+1793124429329,580,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,580,0,0
+1793124429329,583,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,519,173,50,57,http://host.docker.internal:3000/api/autos/1,583,0,0
+1793124429329,584,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,584,0,0
+1793124429329,586,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,586,0,0
+1793124429329,588,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,588,0,0
+1793124429330,592,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,478,173,50,57,http://host.docker.internal:3000/api/autos/3,592,0,0
+1793124429334,594,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,498,173,50,57,http://host.docker.internal:3000/api/autos/2,594,0,0
+1793124429337,594,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,594,0,0
+1793124429342,591,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,519,173,50,57,http://host.docker.internal:3000/api/autos/1,591,0,0
+1793124429342,591,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,484,173,50,57,http://host.docker.internal:3000/api/autos/4,591,0,0
+1793124429347,596,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,478,173,50,57,http://host.docker.internal:3000/api/autos/3,596,0,0
+1793124429347,596,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,596,0,0
+1793124429365,583,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,583,0,0
+1793124429366,588,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,478,173,50,57,http://host.docker.internal:3000/api/autos/3,588,0,0
+1793124429365,589,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,589,0,0
+1793124429366,592,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,592,0,0
+1793124429367,592,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,592,0,0
+1793124429368,591,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,498,173,50,57,http://host.docker.internal:3000/api/autos/2,591,0,0
+1793124429372,589,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,589,0,0
+1793124429377,588,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,519,173,50,57,http://host.docker.internal:3000/api/autos/1,588,0,0
+1793124429383,588,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,588,0,0
+1793124429379,592,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,592,0,0
+1793124429383,591,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,591,0,0
+1793124429387,588,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,588,0,0
+1793124429387,593,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,478,173,50,57,http://host.docker.internal:3000/api/autos/3,593,0,0
+1793124429392,590,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,478,173,50,57,http://host.docker.internal:3000/api/autos/3,590,0,0
+1793124429396,591,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,519,173,50,57,http://host.docker.internal:3000/api/autos/1,591,0,0
+1793124429395,594,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,1404,171,50,57,http://host.docker.internal:3000/api/autos,594,0,0
+1793124429398,591,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,519,173,50,57,http://host.docker.internal:3000/api/autos/1,591,0,0
+1793124429396,593,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,489,173,50,57,http://host.docker.internal:3000/api/autos/5,593,0,0
+1793124429675,988,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-14,text,true,,544,246,7,57,http://host.docker.internal:3000/api/login,988,0,0
+1793124429679,985,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-17,text,true,,544,246,7,57,http://host.docker.internal:3000/api/login,985,0,0
+1793124429681,986,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-19,text,true,,544,246,6,56,http://host.docker.internal:3000/api/login,986,0,0
+1793124429794,873,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-20,text,true,,544,246,6,56,http://host.docker.internal:3000/api/login,873,0,0
+1793124430350,320,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,320,0,0
+1793124430352,318,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,489,173,50,56,http://host.docker.internal:3000/api/autos/5,318,0,0
+1793124430356,317,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,498,173,50,56,http://host.docker.internal:3000/api/autos/2,317,0,0
+1793124430361,314,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,314,0,0
+1793124430359,318,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,489,173,50,56,http://host.docker.internal:3000/api/autos/5,318,0,0
+1793124430363,317,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,498,173,50,56,http://host.docker.internal:3000/api/autos/2,317,0,0
+1793124430372,314,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,314,0,0
+1793124430366,319,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,318,0,0
+1793124430375,314,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,314,0,0
+1793124430378,312,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,519,173,50,56,http://host.docker.internal:3000/api/autos/1,312,0,0
+1793124430381,313,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,313,0,0
+1793124430386,308,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,484,173,50,56,http://host.docker.internal:3000/api/autos/4,308,0,0
+1793124430390,306,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,305,0,0
+1793124430392,306,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,478,173,50,56,http://host.docker.internal:3000/api/autos/3,306,0,0
+1793124430395,305,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,305,0,0
+1793124430397,305,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,305,0,0
+1793124430398,307,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,307,0,0
+1793124430400,308,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,498,173,50,56,http://host.docker.internal:3000/api/autos/2,308,0,0
+1793124430401,308,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,308,0,0
+1793124430410,301,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,498,173,50,56,http://host.docker.internal:3000/api/autos/2,301,0,0
+1793124430412,300,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,300,0,0
+1793124430414,300,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,498,173,50,56,http://host.docker.internal:3000/api/autos/2,300,0,0
+1793124430416,300,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,489,173,50,56,http://host.docker.internal:3000/api/autos/5,300,0,0
+1793124430418,299,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,498,173,50,56,http://host.docker.internal:3000/api/autos/2,299,0,0
+1793124430423,296,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,296,0,0
+1793124430429,294,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,294,0,0
+1793124430432,293,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,484,173,50,56,http://host.docker.internal:3000/api/autos/4,293,0,0
+1793124430434,293,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,293,0,0
+1793124430405,323,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,498,173,50,56,http://host.docker.internal:3000/api/autos/2,323,0,0
+1793124430434,296,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,296,0,0
+1793124430444,288,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,1404,171,50,56,http://host.docker.internal:3000/api/autos,288,0,0
+1793124430444,289,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,519,173,50,56,http://host.docker.internal:3000/api/autos/1,289,0,0
+1793124430448,288,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-3,text,true,,498,173,50,56,http://host.docker.internal:3000/api/autos/2,288,0,0
+1793124430455,283,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-4,text,true,,489,173,49,55,http://host.docker.internal:3000/api/autos/5,283,0,0
+1793124430455,291,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,1404,171,48,54,http://host.docker.internal:3000/api/autos,291,0,0
+1793124430459,290,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,489,173,48,54,http://host.docker.internal:3000/api/autos/5,290,0,0
+1793124430460,290,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-2,text,true,,484,173,48,54,http://host.docker.internal:3000/api/autos/4,290,0,0
+1793124430461,292,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,1404,171,48,54,http://host.docker.internal:3000/api/autos,292,0,0
+1793124430466,295,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,1404,171,47,53,http://host.docker.internal:3000/api/autos,295,0,0
+1793124430472,291,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,498,173,47,53,http://host.docker.internal:3000/api/autos/2,291,0,0
+1793124430472,296,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,478,173,47,53,http://host.docker.internal:3000/api/autos/3,296,0,0
+1793124430474,295,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-6,text,true,,489,173,47,53,http://host.docker.internal:3000/api/autos/5,295,0,0
+1793124430476,293,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,519,173,47,53,http://host.docker.internal:3000/api/autos/1,293,0,0
+1793124430483,292,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,1404,171,46,52,http://host.docker.internal:3000/api/autos,292,0,0
+1793124430480,296,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,1404,171,46,52,http://host.docker.internal:3000/api/autos,296,0,0
+1793124430488,291,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,1404,171,46,52,http://host.docker.internal:3000/api/autos,291,0,0
+1793124430462,321,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-1,text,true,,484,173,46,52,http://host.docker.internal:3000/api/autos/4,321,0,0
+1793124430490,297,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,1404,171,45,51,http://host.docker.internal:3000/api/autos,297,0,0
+1793124430489,298,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,1404,171,45,51,http://host.docker.internal:3000/api/autos,298,0,0
+1793124430489,299,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,484,173,45,51,http://host.docker.internal:3000/api/autos/4,299,0,0
+1793124430842,378,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-15,text,true,,544,246,6,51,http://host.docker.internal:3000/api/login,378,0,0
+1793124430843,378,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-18,text,true,,544,246,6,51,http://host.docker.internal:3000/api/login,378,0,0
+1793124430843,456,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-16,text,true,,544,246,5,50,http://host.docker.internal:3000/api/login,456,0,0
+1793124431170,130,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,489,173,45,50,http://host.docker.internal:3000/api/autos/5,130,0,0
+1793124431170,132,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,1404,171,45,49,http://host.docker.internal:3000/api/autos,132,0,0
+1793124431173,131,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,1404,171,45,49,http://host.docker.internal:3000/api/autos,131,0,0
+1793124431175,130,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,498,173,45,49,http://host.docker.internal:3000/api/autos/2,130,0,0
+1793124431178,129,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,1404,171,45,49,http://host.docker.internal:3000/api/autos,129,0,0
+1793124431181,127,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,1404,171,45,49,http://host.docker.internal:3000/api/autos,127,0,0
+1793124431187,123,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,489,173,45,49,http://host.docker.internal:3000/api/autos/5,123,0,0
+1793124431188,123,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,478,173,45,49,http://host.docker.internal:3000/api/autos/3,123,0,0
+1793124431189,124,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,498,173,45,49,http://host.docker.internal:3000/api/autos/2,124,0,0
+1793124431191,124,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,1404,171,45,49,http://host.docker.internal:3000/api/autos,124,0,0
+1793124431194,124,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,484,173,45,49,http://host.docker.internal:3000/api/autos/4,124,0,0
+1793124431195,126,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,1404,171,45,49,http://host.docker.internal:3000/api/autos,126,0,0
+1793124431196,126,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,484,173,45,49,http://host.docker.internal:3000/api/autos/4,126,0,0
+1793124431198,127,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,1404,171,45,49,http://host.docker.internal:3000/api/autos,127,0,0
+1793124431200,125,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,478,173,45,49,http://host.docker.internal:3000/api/autos/3,125,0,0
+1793124431203,124,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,489,173,45,49,http://host.docker.internal:3000/api/autos/5,124,0,0
+1793124431206,122,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,489,173,45,49,http://host.docker.internal:3000/api/autos/5,122,0,0
+1793124431208,123,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,1404,171,45,49,http://host.docker.internal:3000/api/autos,123,0,0
+1793124431210,124,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,484,173,45,49,http://host.docker.internal:3000/api/autos/4,124,0,0
+1793124431212,125,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,1404,171,45,49,http://host.docker.internal:3000/api/autos,125,0,0
+1793124431213,127,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,498,173,45,49,http://host.docker.internal:3000/api/autos/2,127,0,0
+1793124431215,126,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,1404,171,45,49,http://host.docker.internal:3000/api/autos,126,0,0
+1793124431216,127,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,1404,171,45,49,http://host.docker.internal:3000/api/autos,127,0,0
+1793124431218,127,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,1404,171,45,49,http://host.docker.internal:3000/api/autos,127,0,0
+1793124431220,126,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,489,173,45,49,http://host.docker.internal:3000/api/autos/5,126,0,0
+1793124431223,125,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,519,173,45,49,http://host.docker.internal:3000/api/autos/1,125,0,0
+1793124431225,125,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,1404,171,45,49,http://host.docker.internal:3000/api/autos,125,0,0
+1793124431228,125,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,498,173,45,49,http://host.docker.internal:3000/api/autos/2,125,0,0
+1793124431229,126,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,1404,171,45,49,http://host.docker.internal:3000/api/autos,126,0,0
+1793124431231,126,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,489,173,45,49,http://host.docker.internal:3000/api/autos/5,126,0,0
+1793124431232,127,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-5,text,true,,519,173,45,49,http://host.docker.internal:3000/api/autos/1,127,0,0
+1793124431234,127,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,1404,171,44,48,http://host.docker.internal:3000/api/autos,127,0,0
+1793124431246,116,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-7,text,true,,478,173,44,48,http://host.docker.internal:3000/api/autos/3,116,0,0
+1793124431253,110,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,1404,171,44,48,http://host.docker.internal:3000/api/autos,110,0,0
+1793124431253,112,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,498,173,43,47,http://host.docker.internal:3000/api/autos/2,112,0,0
+1793124431262,104,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,489,173,43,47,http://host.docker.internal:3000/api/autos/5,104,0,0
+1793124431264,103,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,1404,171,43,47,http://host.docker.internal:3000/api/autos,103,0,0
+1793124431269,100,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,1404,171,43,47,http://host.docker.internal:3000/api/autos,100,0,0
+1793124431269,102,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,1404,171,43,47,http://host.docker.internal:3000/api/autos,102,0,0
+1793124431276,98,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,478,173,43,47,http://host.docker.internal:3000/api/autos/3,98,0,0
+1793124431280,95,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,489,173,43,47,http://host.docker.internal:3000/api/autos/5,95,0,0
+1793124431280,97,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,519,173,43,47,http://host.docker.internal:3000/api/autos/1,97,0,0
+1793124431289,89,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,1404,171,43,47,http://host.docker.internal:3000/api/autos,89,0,0
+1793124431288,91,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,478,173,43,47,http://host.docker.internal:3000/api/autos/3,91,0,0
+1793124431288,92,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-9,text,true,,519,173,43,47,http://host.docker.internal:3000/api/autos/1,92,0,0
+1793124431665,151,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-17,text,true,,544,246,4,46,http://host.docker.internal:3000/api/login,151,0,0
+1793124431801,223,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,223,0,0
+1793124431803,222,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,484,173,42,45,http://host.docker.internal:3000/api/autos/4,222,0,0
+1793124431805,222,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,519,173,42,45,http://host.docker.internal:3000/api/autos/1,222,0,0
+1793124431807,343,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,484,173,42,45,http://host.docker.internal:3000/api/autos/4,343,0,0
+1793124431809,342,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,498,173,42,45,http://host.docker.internal:3000/api/autos/2,342,0,0
+1793124431810,343,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,343,0,0
+1793124431806,362,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,362,0,0
+1793124431670,500,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-19,text,true,,544,246,3,45,http://host.docker.internal:3000/api/login,500,0,0
+1793124431670,502,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-20,text,true,,544,246,3,45,http://host.docker.internal:3000/api/login,502,0,0
+1793124431815,358,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,484,173,42,45,http://host.docker.internal:3000/api/autos/4,358,0,0
+1793124431814,361,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,361,0,0
+1793124431812,364,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,364,0,0
+1793124431829,349,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,349,0,0
+1793124431819,362,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,362,0,0
+1793124431822,363,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,519,173,42,45,http://host.docker.internal:3000/api/autos/1,363,0,0
+1793124431823,365,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,365,0,0
+1793124431825,366,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,484,173,42,45,http://host.docker.internal:3000/api/autos/4,366,0,0
+1793124431826,366,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,366,0,0
+1793124431827,368,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,368,0,0
+1793124431832,366,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,519,173,42,45,http://host.docker.internal:3000/api/autos/1,366,0,0
+1793124431835,370,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,370,0,0
+1793124431840,367,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,367,0,0
+1793124431842,369,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,478,173,42,45,http://host.docker.internal:3000/api/autos/3,369,0,0
+1793124431838,373,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,478,173,42,45,http://host.docker.internal:3000/api/autos/3,373,0,0
+1793124431845,367,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,484,173,42,45,http://host.docker.internal:3000/api/autos/4,367,0,0
+1793124431844,368,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,489,173,42,45,http://host.docker.internal:3000/api/autos/5,367,0,0
+1793124431847,366,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,366,0,0
+1793124431849,367,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,367,0,0
+1793124431854,370,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,370,0,0
+1793124431856,370,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,489,173,42,45,http://host.docker.internal:3000/api/autos/5,370,0,0
+1793124431857,370,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,1404,171,42,45,http://host.docker.internal:3000/api/autos,370,0,0
+1793124431862,367,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-10,text,true,,484,173,42,45,http://host.docker.internal:3000/api/autos/4,367,0,0
+1793124431864,366,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-8,text,true,,519,173,42,45,http://host.docker.internal:3000/api/autos/1,366,0,0
+1793124431866,367,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,1404,171,40,43,http://host.docker.internal:3000/api/autos,367,0,0
+1793124431868,373,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,478,173,40,43,http://host.docker.internal:3000/api/autos/3,373,0,0
+1793124431867,376,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,1404,171,40,43,http://host.docker.internal:3000/api/autos,376,0,0
+1793124431870,375,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,498,173,40,43,http://host.docker.internal:3000/api/autos/2,374,0,0
+1793124431850,395,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,498,173,40,43,http://host.docker.internal:3000/api/autos/2,395,0,0
+1793124431872,375,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,498,173,40,43,http://host.docker.internal:3000/api/autos/2,375,0,0
+1793124431874,375,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,1404,171,40,43,http://host.docker.internal:3000/api/autos,375,0,0
+1793124431876,374,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,1404,171,40,43,http://host.docker.internal:3000/api/autos,374,0,0
+1793124431878,380,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,1404,171,40,43,http://host.docker.internal:3000/api/autos,380,0,0
+1793124431879,380,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-11,text,true,,519,173,40,43,http://host.docker.internal:3000/api/autos/1,380,0,0
+1793124431880,380,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,1404,171,40,43,http://host.docker.internal:3000/api/autos,380,0,0
+1793124432222,202,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-18,text,true,,544,246,3,42,http://host.docker.internal:3000/api/login,202,0,0
+1793124432525,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,484,173,39,41,http://host.docker.internal:3000/api/autos/4,6,0,0
+1793124432526,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,1404,171,39,41,http://host.docker.internal:3000/api/autos,7,0,0
+1793124432528,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,1404,171,39,41,http://host.docker.internal:3000/api/autos,6,0,0
+1793124432650,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,1404,171,39,41,http://host.docker.internal:3000/api/autos,7,0,0
+1793124432652,8,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,1404,171,39,41,http://host.docker.internal:3000/api/autos,8,0,0
+1793124432653,8,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,478,173,39,41,http://host.docker.internal:3000/api/autos/3,8,0,0
+1793124432669,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,489,173,39,41,http://host.docker.internal:3000/api/autos/5,5,0,0
+1793124432674,5,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,1404,171,39,41,http://host.docker.internal:3000/api/autos,5,0,0
+1793124432676,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,519,173,39,41,http://host.docker.internal:3000/api/autos/1,6,0,0
+1793124432677,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,484,173,39,41,http://host.docker.internal:3000/api/autos/4,5,0,0
+1793124432679,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,498,173,39,41,http://host.docker.internal:3000/api/autos/2,6,0,0
+1793124432682,12,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,484,173,39,41,http://host.docker.internal:3000/api/autos/4,12,0,0
+1793124432685,11,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,1404,171,39,41,http://host.docker.internal:3000/api/autos,11,0,0
+1793124432689,10,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,489,173,39,41,http://host.docker.internal:3000/api/autos/5,10,0,0
+1793124432692,8,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,1404,171,39,41,http://host.docker.internal:3000/api/autos,8,0,0
+1793124432693,9,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,519,173,39,41,http://host.docker.internal:3000/api/autos/1,8,0,0
+1793124432695,9,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,519,173,39,41,http://host.docker.internal:3000/api/autos/1,9,0,0
+1793124432698,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,1404,171,39,41,http://host.docker.internal:3000/api/autos,7,0,0
+1793124432706,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,478,173,39,41,http://host.docker.internal:3000/api/autos/3,5,0,0
+1793124432708,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,489,173,39,41,http://host.docker.internal:3000/api/autos/5,7,0,0
+1793124432711,8,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,1404,171,39,41,http://host.docker.internal:3000/api/autos,8,0,0
+1793124432712,10,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,1404,171,39,41,http://host.docker.internal:3000/api/autos,10,0,0
+1793124432712,11,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,1404,171,39,41,http://host.docker.internal:3000/api/autos,11,0,0
+1793124432712,12,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,1404,171,39,41,http://host.docker.internal:3000/api/autos,12,0,0
+1793124432713,15,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,484,173,39,41,http://host.docker.internal:3000/api/autos/4,15,0,0
+1793124432717,15,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-12,text,true,,478,173,39,41,http://host.docker.internal:3000/api/autos/3,15,0,0
+1793124432725,11,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,484,173,38,40,http://host.docker.internal:3000/api/autos/4,11,0,0
+1793124432726,11,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,1404,171,38,40,http://host.docker.internal:3000/api/autos,11,0,0
+1793124432728,10,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,498,173,38,40,http://host.docker.internal:3000/api/autos/2,10,0,0
+1793124432733,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-13,text,true,,498,173,38,40,http://host.docker.internal:3000/api/autos/2,7,0,0
+1793124432742,4,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,1404,171,37,39,http://host.docker.internal:3000/api/autos,4,0,0
+1793124432743,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,484,173,37,39,http://host.docker.internal:3000/api/autos/4,7,0,0
+1793124432745,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,1404,171,37,39,http://host.docker.internal:3000/api/autos,6,0,0
+1793124432746,9,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,1404,171,37,39,http://host.docker.internal:3000/api/autos,9,0,0
+1793124432748,9,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,1404,171,37,39,http://host.docker.internal:3000/api/autos,9,0,0
+1793124432749,10,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-14,text,true,,519,173,37,39,http://host.docker.internal:3000/api/autos/1,10,0,0
+1793124432751,9,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,478,173,37,39,http://host.docker.internal:3000/api/autos/3,9,0,0
+1793124432758,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,484,173,36,38,http://host.docker.internal:3000/api/autos/4,6,0,0
+1793124432760,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,498,173,36,38,http://host.docker.internal:3000/api/autos/2,6,0,0
+1793124433032,5,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,1404,171,36,38,http://host.docker.internal:3000/api/autos,5,0,0
+1793124433034,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,478,173,36,38,http://host.docker.internal:3000/api/autos/3,6,0,0
+1793124433034,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,519,173,36,38,http://host.docker.internal:3000/api/autos/1,7,0,0
+1793124433158,4,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,498,173,36,38,http://host.docker.internal:3000/api/autos/2,4,0,0
+1793124433160,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,478,173,36,38,http://host.docker.internal:3000/api/autos/3,6,0,0
+1793124433161,5,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,1404,171,36,38,http://host.docker.internal:3000/api/autos,5,0,0
+1793124433171,270,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-19,text,true,,544,246,2,38,http://host.docker.internal:3000/api/login,270,0,0
+1793124433174,301,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,1404,171,36,37,http://host.docker.internal:3000/api/autos,301,0,0
+1793124433179,297,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,478,173,36,37,http://host.docker.internal:3000/api/autos/3,297,0,0
+1793124433183,294,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,1404,171,36,37,http://host.docker.internal:3000/api/autos,294,0,0
+1793124433182,297,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,1404,171,36,37,http://host.docker.internal:3000/api/autos,297,0,0
+1793124433185,295,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,1404,171,36,37,http://host.docker.internal:3000/api/autos,295,0,0
+1793124433195,286,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,1404,171,36,37,http://host.docker.internal:3000/api/autos,286,0,0
+1793124433197,285,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,519,173,36,37,http://host.docker.internal:3000/api/autos/1,285,0,0
+1793124433199,285,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,1404,171,36,37,http://host.docker.internal:3000/api/autos,285,0,0
+1793124433201,285,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,484,173,36,37,http://host.docker.internal:3000/api/autos/4,285,0,0
+1793124433202,285,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,1404,171,36,37,http://host.docker.internal:3000/api/autos,285,0,0
+1793124433173,316,POST /api/login,200,OK,ESC-02 Inicio de sesión 2-20,text,true,,544,246,1,37,http://host.docker.internal:3000/api/login,316,0,0
+1793124433204,286,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,1404,171,36,37,http://host.docker.internal:3000/api/autos,286,0,0
+1793124433206,286,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,489,173,36,36,http://host.docker.internal:3000/api/autos/5,286,0,0
+1793124433212,282,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,1404,171,36,36,http://host.docker.internal:3000/api/autos,282,0,0
+1793124433215,280,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,1404,171,36,36,http://host.docker.internal:3000/api/autos,280,0,0
+1793124433219,278,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,484,173,36,36,http://host.docker.internal:3000/api/autos/4,278,0,0
+1793124433222,277,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,489,173,36,36,http://host.docker.internal:3000/api/autos/5,277,0,0
+1793124433224,278,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,519,173,36,36,http://host.docker.internal:3000/api/autos/1,278,0,0
+1793124433225,280,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,519,173,36,36,http://host.docker.internal:3000/api/autos/1,280,0,0
+1793124433229,278,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,1404,171,36,36,http://host.docker.internal:3000/api/autos,278,0,0
+1793124433237,271,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,1404,171,36,36,http://host.docker.internal:3000/api/autos,271,0,0
+1793124433238,272,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,484,173,36,36,http://host.docker.internal:3000/api/autos/4,272,0,0
+1793124433239,272,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,1404,171,36,36,http://host.docker.internal:3000/api/autos,272,0,0
+1793124433247,265,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-15,text,true,,489,173,36,36,http://host.docker.internal:3000/api/autos/5,265,0,0
+1793124433250,264,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,1404,171,36,36,http://host.docker.internal:3000/api/autos,264,0,0
+1793124433256,260,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,489,173,35,35,http://host.docker.internal:3000/api/autos/5,260,0,0
+1793124433251,265,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,498,173,35,35,http://host.docker.internal:3000/api/autos/2,265,0,0
+1793124433257,260,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-16,text,true,,484,173,35,35,http://host.docker.internal:3000/api/autos/4,260,0,0
+1793124433261,257,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,1404,171,35,35,http://host.docker.internal:3000/api/autos,257,0,0
+1793124433265,255,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,1404,171,34,34,http://host.docker.internal:3000/api/autos,255,0,0
+1793124433267,256,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,1404,171,34,34,http://host.docker.internal:3000/api/autos,256,0,0
+1793124433538,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,484,173,34,34,http://host.docker.internal:3000/api/autos/4,6,0,0
+1793124433541,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,1404,171,34,34,http://host.docker.internal:3000/api/autos,6,0,0
+1793124433541,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,1404,171,34,34,http://host.docker.internal:3000/api/autos,7,0,0
+1793124433663,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,1404,171,34,34,http://host.docker.internal:3000/api/autos,6,0,0
+1793124433666,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,1404,171,34,34,http://host.docker.internal:3000/api/autos,6,0,0
+1793124433667,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,484,173,34,34,http://host.docker.internal:3000/api/autos/4,6,0,0
+1793124433975,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,484,173,34,34,http://host.docker.internal:3000/api/autos/4,6,0,0
+1793124433976,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,1404,171,34,34,http://host.docker.internal:3000/api/autos,7,0,0
+1793124433977,8,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,478,173,34,34,http://host.docker.internal:3000/api/autos/3,8,0,0
+1793124433979,9,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,478,173,34,34,http://host.docker.internal:3000/api/autos/3,9,0,0
+1793124433980,8,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,478,173,34,34,http://host.docker.internal:3000/api/autos/3,8,0,0
+1793124433982,10,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,519,173,34,34,http://host.docker.internal:3000/api/autos/1,10,0,0
+1793124433985,13,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,489,173,34,34,http://host.docker.internal:3000/api/autos/5,13,0,0
+1793124433983,16,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,1404,171,34,34,http://host.docker.internal:3000/api/autos,16,0,0
+1793124433986,15,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,1404,171,34,34,http://host.docker.internal:3000/api/autos,15,0,0
+1793124433992,11,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,1404,171,34,34,http://host.docker.internal:3000/api/autos,11,0,0
+1793124433991,13,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,498,173,34,34,http://host.docker.internal:3000/api/autos/2,13,0,0
+1793124433988,17,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,484,173,34,34,http://host.docker.internal:3000/api/autos/4,17,0,0
+1793124433996,12,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,519,173,34,34,http://host.docker.internal:3000/api/autos/1,12,0,0
+1793124433995,16,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-17,text,true,,478,173,34,34,http://host.docker.internal:3000/api/autos/3,16,0,0
+1793124433998,16,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,1404,171,33,33,http://host.docker.internal:3000/api/autos,16,0,0
+1793124434005,14,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,1404,171,33,33,http://host.docker.internal:3000/api/autos,13,0,0
+1793124434003,19,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,1404,171,33,33,http://host.docker.internal:3000/api/autos,19,0,0
+1793124434000,26,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,1404,171,33,33,http://host.docker.internal:3000/api/autos,26,0,0
+1793124434008,20,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,498,173,33,33,http://host.docker.internal:3000/api/autos/2,20,0,0
+1793124434012,18,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,478,173,33,33,http://host.docker.internal:3000/api/autos/3,18,0,0
+1793124434012,19,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,1404,171,33,33,http://host.docker.internal:3000/api/autos,19,0,0
+1793124434009,23,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,478,173,33,33,http://host.docker.internal:3000/api/autos/3,23,0,0
+1793124434017,27,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,1404,171,33,33,http://host.docker.internal:3000/api/autos,26,0,0
+1793124434017,27,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,1404,171,33,33,http://host.docker.internal:3000/api/autos,27,0,0
+1793124434014,32,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-19,text,true,,498,173,33,33,http://host.docker.internal:3000/api/autos/2,32,0,0
+1793124434018,29,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-18,text,true,,519,173,33,33,http://host.docker.internal:3000/api/autos/1,29,0,0
+1793124434021,27,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,519,173,33,33,http://host.docker.internal:3000/api/autos/1,27,0,0
+1793124434023,25,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,478,173,33,33,http://host.docker.internal:3000/api/autos/3,25,0,0
+1793124434044,8,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,1404,171,32,32,http://host.docker.internal:3000/api/autos,8,0,0
+1793124434048,10,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,498,173,31,31,http://host.docker.internal:3000/api/autos/2,10,0,0
+1793124434049,12,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,519,173,31,31,http://host.docker.internal:3000/api/autos/1,12,0,0
+1793124434170,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,489,173,31,31,http://host.docker.internal:3000/api/autos/5,7,0,0
+1793124434173,10,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,498,173,31,31,http://host.docker.internal:3000/api/autos/2,10,0,0
+1793124434174,10,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,1404,171,31,31,http://host.docker.internal:3000/api/autos,10,0,0
+1793124434482,8,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,1404,171,31,31,http://host.docker.internal:3000/api/autos,8,0,0
+1793124434484,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,484,173,31,31,http://host.docker.internal:3000/api/autos/4,7,0,0
+1793124434485,9,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,1404,171,31,31,http://host.docker.internal:3000/api/autos,9,0,0
+1793124434489,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,1404,171,31,31,http://host.docker.internal:3000/api/autos,7,0,0
+1793124434489,17,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,1404,171,31,31,http://host.docker.internal:3000/api/autos,17,0,0
+1793124434492,16,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,1404,171,31,31,http://host.docker.internal:3000/api/autos,16,0,0
+1793124434498,13,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,1404,171,31,31,http://host.docker.internal:3000/api/autos,13,0,0
+1793124434503,10,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,478,173,31,31,http://host.docker.internal:3000/api/autos/3,10,0,0
+1793124434499,16,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,478,173,31,31,http://host.docker.internal:3000/api/autos/3,16,0,0
+1793124434504,12,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,1404,171,31,31,http://host.docker.internal:3000/api/autos,12,0,0
+1793124434505,22,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,1404,171,31,31,http://host.docker.internal:3000/api/autos,22,0,0
+1793124434502,28,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,478,173,31,31,http://host.docker.internal:3000/api/autos/3,28,0,0
+1793124434509,22,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,1404,171,31,31,http://host.docker.internal:3000/api/autos,22,0,0
+1793124434519,14,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,478,173,31,31,http://host.docker.internal:3000/api/autos/3,14,0,0
+1793124434515,20,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,489,173,31,31,http://host.docker.internal:3000/api/autos/5,20,0,0
+1793124434523,14,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,484,173,31,31,http://host.docker.internal:3000/api/autos/4,14,0,0
+1793124434526,15,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,478,173,31,31,http://host.docker.internal:3000/api/autos/3,15,0,0
+1793124434528,18,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,1404,171,31,31,http://host.docker.internal:3000/api/autos,18,0,0
+1793124434532,16,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,478,173,31,31,http://host.docker.internal:3000/api/autos/3,16,0,0
+1793124434533,15,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,1404,171,31,31,http://host.docker.internal:3000/api/autos,15,0,0
+1793124434531,19,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,1404,171,31,31,http://host.docker.internal:3000/api/autos,19,0,0
+1793124434544,9,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-20,text,true,,498,173,31,31,http://host.docker.internal:3000/api/autos/2,9,0,0
+1793124434544,16,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-21,text,true,,478,173,30,30,http://host.docker.internal:3000/api/autos/3,16,0,0
+1793124434548,18,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,1404,171,29,29,http://host.docker.internal:3000/api/autos,18,0,0
+1793124434549,19,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,1404,171,29,29,http://host.docker.internal:3000/api/autos,19,0,0
+1793124434553,17,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,489,173,29,29,http://host.docker.internal:3000/api/autos/5,17,0,0
+1793124434559,12,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,1404,171,29,29,http://host.docker.internal:3000/api/autos,12,0,0
+1793124434563,12,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,1404,171,29,29,http://host.docker.internal:3000/api/autos,12,0,0
+1793124434677,23,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,1404,171,29,29,http://host.docker.internal:3000/api/autos,23,0,0
+1793124434684,28,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,1404,171,29,29,http://host.docker.internal:3000/api/autos,28,0,0
+1793124434687,25,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,489,173,29,29,http://host.docker.internal:3000/api/autos/5,25,0,0
+1793124434991,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,478,173,29,29,http://host.docker.internal:3000/api/autos/3,6,0,0
+1793124434992,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,1404,171,29,29,http://host.docker.internal:3000/api/autos,6,0,0
+1793124434994,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,498,173,29,29,http://host.docker.internal:3000/api/autos/2,6,0,0
+1793124434996,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,498,173,29,29,http://host.docker.internal:3000/api/autos/2,7,0,0
+1793124435006,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,484,173,29,29,http://host.docker.internal:3000/api/autos/4,7,0,0
+1793124435008,9,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,519,173,29,29,http://host.docker.internal:3000/api/autos/1,9,0,0
+1793124435011,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,498,173,29,29,http://host.docker.internal:3000/api/autos/2,6,0,0
+1793124435014,9,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,1404,171,29,29,http://host.docker.internal:3000/api/autos,9,0,0
+1793124435015,11,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,1404,171,29,29,http://host.docker.internal:3000/api/autos,11,0,0
+1793124435017,12,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,498,173,29,29,http://host.docker.internal:3000/api/autos/2,12,0,0
+1793124435028,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-22,text,true,,498,173,29,29,http://host.docker.internal:3000/api/autos/2,5,0,0
+1793124435031,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,1404,171,28,28,http://host.docker.internal:3000/api/autos,6,0,0
+1793124435032,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,478,173,28,28,http://host.docker.internal:3000/api/autos/3,7,0,0
+1793124435034,8,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,1404,171,28,28,http://host.docker.internal:3000/api/autos,8,0,0
+1793124435036,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,1404,171,28,28,http://host.docker.internal:3000/api/autos,7,0,0
+1793124435039,8,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,1404,171,28,28,http://host.docker.internal:3000/api/autos,8,0,0
+1793124435042,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,1404,171,28,28,http://host.docker.internal:3000/api/autos,6,0,0
+1793124435046,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,498,173,28,28,http://host.docker.internal:3000/api/autos/2,6,0,0
+1793124435049,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-23,text,true,,519,173,28,28,http://host.docker.internal:3000/api/autos/1,7,0,0
+1793124435049,8,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,1404,171,28,28,http://host.docker.internal:3000/api/autos,8,0,0
+1793124435050,8,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,519,173,28,28,http://host.docker.internal:3000/api/autos/1,8,0,0
+1793124435066,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-24,text,true,,519,173,27,27,http://host.docker.internal:3000/api/autos/1,5,0,0
+1793124435069,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-25,text,true,,498,173,26,26,http://host.docker.internal:3000/api/autos/2,5,0,0
+1793124435070,8,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,1404,171,25,25,http://host.docker.internal:3000/api/autos,8,0,0
+1793124435072,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,489,173,25,25,http://host.docker.internal:3000/api/autos/5,7,0,0
+1793124435075,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,498,173,25,25,http://host.docker.internal:3000/api/autos/2,6,0,0
+1793124435200,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,489,173,25,25,http://host.docker.internal:3000/api/autos/5,6,0,0
+1793124435212,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,1404,171,25,25,http://host.docker.internal:3000/api/autos,6,0,0
+1793124435212,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,498,173,25,25,http://host.docker.internal:3000/api/autos/2,7,0,0
+1793124435497,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,1404,171,25,25,http://host.docker.internal:3000/api/autos,6,0,0
+1793124435498,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-26,text,true,,519,173,25,25,http://host.docker.internal:3000/api/autos/1,6,0,0
+1793124435501,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,1404,171,24,24,http://host.docker.internal:3000/api/autos,6,0,0
+1793124435503,11,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,1404,171,24,24,http://host.docker.internal:3000/api/autos,11,0,0
+1793124435514,24,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,1404,171,24,24,http://host.docker.internal:3000/api/autos,24,0,0
+1793124435522,16,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,1404,171,24,24,http://host.docker.internal:3000/api/autos,16,0,0
+1793124435527,12,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,484,173,24,24,http://host.docker.internal:3000/api/autos/4,12,0,0
+1793124435527,13,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,519,173,24,24,http://host.docker.internal:3000/api/autos/1,13,0,0
+1793124435518,23,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,1404,171,24,24,http://host.docker.internal:3000/api/autos,23,0,0
+1793124435531,18,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,1404,171,24,24,http://host.docker.internal:3000/api/autos,18,0,0
+1793124435538,11,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,498,173,24,24,http://host.docker.internal:3000/api/autos/2,11,0,0
+1793124435539,12,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,1404,171,24,24,http://host.docker.internal:3000/api/autos,12,0,0
+1793124435542,10,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,484,173,24,24,http://host.docker.internal:3000/api/autos/4,10,0,0
+1793124435544,11,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,484,173,24,24,http://host.docker.internal:3000/api/autos/4,11,0,0
+1793124435547,10,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,519,173,24,24,http://host.docker.internal:3000/api/autos/1,10,0,0
+1793124435549,12,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,489,173,24,24,http://host.docker.internal:3000/api/autos/5,12,0,0
+1793124435552,10,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,1404,171,24,24,http://host.docker.internal:3000/api/autos,10,0,0
+1793124435557,8,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-27,text,true,,484,173,24,24,http://host.docker.internal:3000/api/autos/4,8,0,0
+1793124435558,8,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,1404,171,24,24,http://host.docker.internal:3000/api/autos,8,0,0
+1793124435578,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,489,173,23,23,http://host.docker.internal:3000/api/autos/5,5,0,0
+1793124435580,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,1404,171,23,23,http://host.docker.internal:3000/api/autos,6,0,0
+1793124435582,5,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,1404,171,23,23,http://host.docker.internal:3000/api/autos,5,0,0
+1793124435706,5,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,1404,171,23,23,http://host.docker.internal:3000/api/autos,5,0,0
+1793124435718,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,484,173,23,23,http://host.docker.internal:3000/api/autos/4,6,0,0
+1793124435719,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,1404,171,23,23,http://host.docker.internal:3000/api/autos,6,0,0
+1793124436000,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,519,173,23,23,http://host.docker.internal:3000/api/autos/1,5,0,0
+1793124436003,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-29,text,true,,498,173,23,23,http://host.docker.internal:3000/api/autos/2,6,0,0
+1793124436010,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,498,173,22,22,http://host.docker.internal:3000/api/autos/2,6,0,0
+1793124436035,8,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-28,text,true,,484,173,22,22,http://host.docker.internal:3000/api/autos/4,8,0,0
+1793124436035,11,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,478,173,22,22,http://host.docker.internal:3000/api/autos/3,11,0,0
+1793124436035,12,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,1404,171,22,22,http://host.docker.internal:3000/api/autos,12,0,0
+1793124436036,20,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,1404,171,21,21,http://host.docker.internal:3000/api/autos,20,0,0
+1793124436040,21,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,498,173,21,21,http://host.docker.internal:3000/api/autos/2,21,0,0
+1793124436048,27,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-30,text,true,,498,173,21,21,http://host.docker.internal:3000/api/autos/2,27,0,0
+1793124436045,30,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,498,173,21,21,http://host.docker.internal:3000/api/autos/2,30,0,0
+1793124436049,26,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,1404,171,21,21,http://host.docker.internal:3000/api/autos,26,0,0
+1793124436051,24,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,1404,171,21,21,http://host.docker.internal:3000/api/autos,24,0,0
+1793124436046,30,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,1404,171,21,21,http://host.docker.internal:3000/api/autos,30,0,0
+1793124436054,22,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,1404,171,21,21,http://host.docker.internal:3000/api/autos,22,0,0
+1793124436059,24,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,1404,171,20,20,http://host.docker.internal:3000/api/autos,24,0,0
+1793124436064,20,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-31,text,true,,484,173,20,20,http://host.docker.internal:3000/api/autos/4,20,0,0
+1793124436060,28,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,519,173,19,19,http://host.docker.internal:3000/api/autos/1,28,0,0
+1793124436080,14,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,1404,171,19,19,http://host.docker.internal:3000/api/autos,14,0,0
+1793124436082,15,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,478,173,19,19,http://host.docker.internal:3000/api/autos/3,15,0,0
+1793124436084,15,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,498,173,19,19,http://host.docker.internal:3000/api/autos/2,15,0,0
+1793124436207,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,498,173,19,19,http://host.docker.internal:3000/api/autos/2,7,0,0
+1793124436220,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,1404,171,19,19,http://host.docker.internal:3000/api/autos,6,0,0
+1793124436221,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,498,173,19,19,http://host.docker.internal:3000/api/autos/2,6,0,0
+1793124436506,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,1404,171,19,19,http://host.docker.internal:3000/api/autos,6,0,0
+1793124436516,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,1404,171,19,19,http://host.docker.internal:3000/api/autos,7,0,0
+1793124436546,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,1404,171,19,19,http://host.docker.internal:3000/api/autos,6,0,0
+1793124436548,9,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-32,text,true,,519,173,19,19,http://host.docker.internal:3000/api/autos/1,8,0,0
+1793124436557,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,489,173,18,18,http://host.docker.internal:3000/api/autos/5,6,0,0
+1793124436573,5,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,1404,171,18,18,http://host.docker.internal:3000/api/autos,5,0,0
+1793124436576,10,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,484,173,18,18,http://host.docker.internal:3000/api/autos/4,10,0,0
+1793124436576,11,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-34,text,true,,489,173,18,18,http://host.docker.internal:3000/api/autos/5,11,0,0
+1793124436576,25,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,1404,171,17,17,http://host.docker.internal:3000/api/autos,25,0,0
+1793124436576,26,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,478,173,17,17,http://host.docker.internal:3000/api/autos/3,26,0,0
+1793124436576,32,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-33,text,true,,489,173,17,17,http://host.docker.internal:3000/api/autos/5,32,0,0
+1793124436591,17,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,1404,171,17,17,http://host.docker.internal:3000/api/autos,17,0,0
+1793124436584,24,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,489,173,17,17,http://host.docker.internal:3000/api/autos/5,24,0,0
+1793124436595,21,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,478,173,16,16,http://host.docker.internal:3000/api/autos/3,21,0,0
+1793124436598,21,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,1404,171,16,16,http://host.docker.internal:3000/api/autos,21,0,0
+1793124436600,20,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,1404,171,16,16,http://host.docker.internal:3000/api/autos,20,0,0
+1793124436714,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,1404,171,16,16,http://host.docker.internal:3000/api/autos,7,0,0
+1793124436726,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,489,173,16,16,http://host.docker.internal:3000/api/autos/5,7,0,0
+1793124436727,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,1404,171,16,16,http://host.docker.internal:3000/api/autos,7,0,0
+1793124437015,8,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,478,173,16,16,http://host.docker.internal:3000/api/autos/3,8,0,0
+1793124437024,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-35,text,true,,489,173,16,16,http://host.docker.internal:3000/api/autos/5,5,0,0
+1793124437053,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,519,173,15,15,http://host.docker.internal:3000/api/autos/1,5,0,0
+1793124437063,5,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,1404,171,15,15,http://host.docker.internal:3000/api/autos,5,0,0
+1793124437078,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-36,text,true,,498,173,15,15,http://host.docker.internal:3000/api/autos/2,6,0,0
+1793124437087,5,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,1404,171,14,14,http://host.docker.internal:3000/api/autos,5,0,0
+1793124437101,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,484,173,14,14,http://host.docker.internal:3000/api/autos/4,7,0,0
+1793124437102,7,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,1404,171,14,14,http://host.docker.internal:3000/api/autos,7,0,0
+1793124437109,5,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,1404,171,14,14,http://host.docker.internal:3000/api/autos,5,0,0
+1793124437108,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-37,text,true,,498,173,14,14,http://host.docker.internal:3000/api/autos/2,7,0,0
+1793124437117,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,1404,171,13,13,http://host.docker.internal:3000/api/autos,6,0,0
+1793124437120,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,519,173,13,13,http://host.docker.internal:3000/api/autos/1,7,0,0
+1793124437120,8,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,489,173,13,13,http://host.docker.internal:3000/api/autos/5,8,0,0
+1793124437221,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,484,173,13,13,http://host.docker.internal:3000/api/autos/4,6,0,0
+1793124437234,5,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,1404,171,13,13,http://host.docker.internal:3000/api/autos,5,0,0
+1793124437235,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,484,173,13,13,http://host.docker.internal:3000/api/autos/4,5,0,0
+1793124437524,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,1404,171,13,13,http://host.docker.internal:3000/api/autos,6,0,0
+1793124437559,5,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,1404,171,13,13,http://host.docker.internal:3000/api/autos,5,0,0
+1793124437569,4,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-38,text,true,,478,173,13,13,http://host.docker.internal:3000/api/autos/3,4,0,0
+1793124437592,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-40,text,true,,498,173,12,12,http://host.docker.internal:3000/api/autos/2,6,0,0
+1793124437608,5,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,1404,171,11,11,http://host.docker.internal:3000/api/autos,5,0,0
+1793124437609,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-39,text,true,,484,173,11,11,http://host.docker.internal:3000/api/autos/4,5,0,0
+1793124437614,7,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-41,text,true,,498,173,10,10,http://host.docker.internal:3000/api/autos/2,7,0,0
+1793124437624,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,519,173,9,9,http://host.docker.internal:3000/api/autos/1,5,0,0
+1793124437627,5,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,1404,171,9,9,http://host.docker.internal:3000/api/autos,5,0,0
+1793124437628,6,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,1404,171,9,9,http://host.docker.internal:3000/api/autos,6,0,0
+1793124437728,4,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,1404,171,9,9,http://host.docker.internal:3000/api/autos,4,0,0
+1793124437740,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-42,text,true,,498,173,9,9,http://host.docker.internal:3000/api/autos/2,5,0,0
+1793124437741,5,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,1404,171,9,9,http://host.docker.internal:3000/api/autos,5,0,0
+1793124438030,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,478,173,8,8,http://host.docker.internal:3000/api/autos/3,5,0,0
+1793124438064,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-44,text,true,,519,173,8,8,http://host.docker.internal:3000/api/autos/1,5,0,0
+1793124438114,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-43,text,true,,498,173,7,7,http://host.docker.internal:3000/api/autos/2,5,0,0
+1793124438129,4,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,1404,171,6,6,http://host.docker.internal:3000/api/autos,4,0,0
+1793124438133,4,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-48,text,true,,478,173,6,6,http://host.docker.internal:3000/api/autos/3,4,0,0
+1793124438135,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-46,text,true,,498,173,5,5,http://host.docker.internal:3000/api/autos/2,5,0,0
+1793124438233,4,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-45,text,true,,484,173,4,4,http://host.docker.internal:3000/api/autos/4,4,0,0
+1793124438247,4,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-47,text,true,,478,173,3,3,http://host.docker.internal:3000/api/autos/3,4,0,0
+1793124438536,4,GET /api/autos (listar catálogo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,1404,171,2,2,http://host.docker.internal:3000/api/autos,4,0,0
+1793124438634,6,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-49,text,true,,498,173,2,2,http://host.docker.internal:3000/api/autos/2,6,0,0
+1793124439041,5,GET /api/autos/{id} (detalle de vehículo),200,OK,ESC-01 Navegación del catálogo 1-50,text,true,,489,173,1,1,http://host.docker.internal:3000/api/autos/5,5,0,0
